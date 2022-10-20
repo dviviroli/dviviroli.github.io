@@ -10,7 +10,6 @@
   - text: News item at Federal Office of Energy
     url: "https://energeiaplus.com/2021/04/15/von-den-exar-modell-rechnungen-zur-konkreten-hochwassergefaehrdung-fuer-stauanlagen/?translateto=en"
     external: Y
-  new: Y
 
 - title: Hydrological basis for climate change adaptation measures (Hydro-CH2018)
   subtitle: Synthesis report for Switzerland, contributions to chapters on uncertainties and on floods
@@ -111,7 +110,6 @@
   - text: project synthesis and collection of all project reports (German)
     url: "https://www.wsl.ch/de/projekte/exar-1.html"
     external: Y
-  new: Y
 
 - title: Natural runoff in the Glenner River 1930–2013 and impacts of hydropower use
   subtitle: Process-oriented hydrological modelling with consideration of hydropower use
