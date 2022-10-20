@@ -25,30 +25,6 @@
     url: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
     external: Y
 
-- title: Hydrological basis for climate change adaptation measures (Hydro-CH2018)
-  subtitle: Synthesis report for Switzerland, contributions to chapters on uncertainties and on floods
-  where: University of Zurich
-  collaboration:
-  - partner: Swiss Federal Institute for Forest, Snow and Landscape Research (WSL), Birmensdorf
-  - partner: Swiss Federal Institute of Technology, Zurich (ETHZ)
-  - partner: University of Bern
-  - partner: University of Fribourg
-  - partner: University of Geneva
-  - partner: University of Lausanne
-  funding:
-  - sponsor: Swiss Federal Office for the Environment (FOEN)
-  moreinfo:
-  - text: Project homepage
-    url: "https://www.nccs.admin.ch/nccs/de/home/das-nccs/themenschwerpunkte/hydro-ch2018.html"
-    external: Y
-  mediacoverage:
-  - title: Press release
-    url: https://www.bafu.admin.ch/bafu/de/home/themen/wasser/wasser-veranstaltungen-und-tagungen/hydrologische-szenarien-hydro-ch2018.html
-    external: Y
-  - title: Swissinfo
-    url: https://www.swissinfo.ch/eng/climate-report-sounds-water-alarm-in-switzerland/46453134
-    external: Y
-
 - title: "Mountains: Water towers for food production?"
   subtitle: Model-based assessments regarding the importance of mountain runoff for irrigated agriculture and food production downstream
   where: University of Zurich
