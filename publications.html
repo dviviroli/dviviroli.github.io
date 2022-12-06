@@ -16,15 +16,17 @@ title: Publications
 	<ul>
 </div>
 
-<!-- Altmetric badges -->
+<!-- Altmetric/Dimensions and PlumX badges -->
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script> <!-- probably does not work yet. see https://plu.mx/plum/developers/widgets# -->
 
 <!-- OPTIONS -->
 {% assign shownewonly = false %}
 {% assign oldestyearshown = 1900 %}
-{% assign showdimensions = false %}
-{% assign showaltmetric = false %}
+{% assign showdimensions = true %}
+{% assign showaltmetric = true %}
+{% assign showplumx = true %}
 
 {% if site.data.publications_papers-preprints %}
 
@@ -116,6 +118,9 @@ title: Publications
 				{% if showaltmetric and item.doi %}
 					<a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a>
 				{% endif %}
+				{% if showplumx and item.doi %}
+					<a href="https://plu.mx/plum/a/?doi={{ item.doi }}" class="plumx-plum-print-popup"></a>
+			  {% endif %}
 				{% include publications_pdf_and_notes.html %}
 			</li>
 		{% endif %}
