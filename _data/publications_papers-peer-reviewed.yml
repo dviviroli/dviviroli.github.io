@@ -31,7 +31,7 @@
 
 - authors: Kummu M, Heino M, Taka M, Varis O, Viviroli D
   year: 2021
-  title: Climate change risks to push one-third of global food production outside Safe Climatic Space
+  title: Climate change risks pushing one-third of global food production outside the safe climatic space
   journal: One Earth
   volume: 4
   pages: 720–729
@@ -99,6 +99,8 @@
     highlight: Y
     url: https://www.nature.com/articles/d41586-020-02028-7
     external: Y
+  - text: "Highly cited paper (top 1% in field as to ESI)"
+    highlight: Y
   mediacoverage:
   - title: Press release (University of Zurich, German)
     url: https://www.media.uzh.ch/de/medienmitteilungen/2020/Wasserressourcen-.html
@@ -121,6 +123,9 @@
   pdf: https://rdcu.be/b5nLf
   pdf_text: Read online
   pdf_external: Y
+  notes:
+  - text: "Highly cited paper (top 1% in field as to ESI)"
+    highlight: Y
 
 - authors: Westerberg IK, Sikorska-Senoner AE, Viviroli D, Vis J, Seibert J
   year: 2020
@@ -360,7 +365,7 @@
   openaccess: Y
   pdf_external: Y
   notes:
-  - text: "Highly cited paper (top 1% in field as to Essential Science Indicators)"
+  - text: "Highly cited paper (top 1% in field as to ESI)"
     highlight: Y
 
 - authors: Viviroli D, Weingartner R
@@ -423,7 +428,7 @@
   doi: 10.1016/j.envsoft.2009.04.001
   pdf: /documents/Viviroli_et_al_2009_EMS_24.pdf
   notes:
-  - text: "Highly cited paper (top 1% in field as to Essential Science Indicators)"
+  - text: "Highly cited paper (top 1% in field as to ESI)"
     highlight: Y
 
 - authors: Viviroli D, Dürr HH, Messerli B, Meybeck M, Weingartner R

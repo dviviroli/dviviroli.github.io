@@ -1,3 +1,11 @@
+- authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
+  year: 2023
+  title: Catchment attributes and hydro-meteorological time series for large-sample studies across hydrologic Switzerland (CAMELS-CH). Pre-release, version 0.1
+  repository: Zenodo Digital Repository
+  doi: 10.5281/zenodo.7784633
+  openaccess: Y
+  new: Y
+
 - authors: Thornton J, Snethlage MA, Sayre R, Urbach DR, Viviroli D, Ehrlich D, Muccione V, Wester P, Insarov G, Adler C
   year: 2022
   title: "Supplementary Information: Human populations in the world's mountains: spatio-temporal patterns and potential controls"
