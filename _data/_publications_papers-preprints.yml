@@ -1,10 +1,9 @@
-- authors: Viviroli D, Sikorska-Senoner AE, Evin G, Staudinger M, Kauzlaric M, Chardon J, Favre AC, Hingray B, Nicolet G, Raynaud D, Seibert J, Weingartner R, Whealton C
-  year: 2022
-  title: Comprehensive space-time hydrometeorological simulations for estimating very rare floods at multiple sites in a large river basin
-  new: Y
-  archive: Natural Hazards and Earth System Sciences
-  date: accepted
-  doi: 10.5194/nhess-2022-99
-  pdf: https://nhess.copernicus.org/preprints/nhess-2022-99/nhess-2022-99.pdf
+
+- authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
+  year: 2023
+  title: "CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments in hydrologic Switzerland"
+  archive: ****************************************************************
+  doi: ****************************************************************
   pdf_external: Y
   openaccess: Y
+  new: Y
