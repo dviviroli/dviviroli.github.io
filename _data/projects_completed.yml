@@ -1,3 +1,23 @@
+- title: Flood hazards and risk trends along the Aare River under a changing climate
+  subtitle: Study within the pilot programme on climate change adaptation in Switzerland
+  years: 2019–2023
+  where: University of Zurich
+  collaboration:
+  - partner: Geotest AG
+  - partner: Hunziker, Zarn & Partner AG
+  funding:
+  - sponsor: Swiss Federal Office for the Environment (FOEN)
+  - sponsor: Canton of Aargau
+  - sponsor: Canton of Bern
+  - sponsor: Canton of Solothurn
+  moreinfo:
+  - text: Project results
+    url: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
+    external: Y
+  - text: Pilot programme overview
+    url: "https://www.nccs.admin.ch/nccs/en/home/measures/pak.html"
+    external: Y
+
 - title: Flood events from continuous simulation in the context of dam safety
   subtitle: Development of statistical methods for identifying representative hydrographs from extensive hydrometeorological simulations
   years: 2019–2021

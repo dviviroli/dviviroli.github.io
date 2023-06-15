@@ -33,11 +33,11 @@
 
 - title: Projects
   url: /projects.html
-  submenu:
-  - text: Current
-    anchor: curr
-  - text: Completed
-    anchor: compl
+  # submenu:
+  # - text: Current
+  #   anchor: curr
+  # - text: Completed
+  #   anchor: compl
 
 - title: Photography
   url: /photography.html
