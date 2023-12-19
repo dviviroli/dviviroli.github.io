@@ -4,8 +4,11 @@
   year: 2023
   title: "CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments in hydrologic Switzerland"
   journal: Earth System Science Data
-  volume: accepted
-  doi: "10.5194/essd-2023-127"
+  volume: 15
+  issue: 12
+  pages: 5755–5784
+  doi: "10.5194/essd-15-5755-2023"
+  pdf: https://essd.copernicus.org/articles/15/5755/2023/essd-15-5755-2023.pdf
   pdf_external: Y
   openaccess: Y
   new: Y
