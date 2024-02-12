@@ -4,11 +4,13 @@
 - authors: "Adler C, Wester P, Bhatt I, Huggel C, Insarov G, Morecroft M, Muccione V, Prakash A, Alcántara-Ayala I, Allen SK, Bader M, Bigler S, Camac J, Chakraborty R, Cuni A, Cuvi N, Drenkhan F, Hussain A, Maharjan A, Marchant R, McDowell G, Morin S, Niggli L, Ochoa A, Pandey A, Postigo J, Razanatsoa E, Rudloff VM, Scott C, Stevens M, Stone D, Thorn J, Thornton J, Viviroli D, Werners S"
   year: 2022
   title: "Cross-Chapter Paper 5: Mountains"
-  editors: Intergovernmental Panel on Climate Change (IPCC)
-  booktitle: "Climate Change 2022: Impacts, Adaptation and Vulnerability. Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change"
-  publisher: Intergovernmental Panel on Climate Change (IPCC)
-  place: Geneva
+  editors: Pörtner HO, Roberts DC, Tignor M, Poloczanska ES, Mintenbeck K, Alegría A, Craig M, Langsdorf S, Löschke S, Möller V, Okem A, Rama B, eds
+  booktitle: "Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth As-sessment Report of the Intergovernmental Panel on Climate Change (IPCC)"
+  publisher: Cambridge University Press
+  place: Cambridge, UK and New York, NY, USA
+  pages: 2273–2318
   pdf: "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP5.pdf"
+  chapterdoi: 10.1017/9781009325844.022
   openaccess: Y
   pdf_text: Download chapter pdf
   pdf_external: Y
@@ -127,11 +129,12 @@
   year: 2019
   title: High Mountain Areas
   editors: Pörtner HO, Roberts DC, Masson-Delmotte V, Zhai P, Tignor M, Poloczanska E, Mintenbeck K, Alegría A, Nicolai M, Okem A, Petzold J, Rama B, Weyer NM, eds
-  booktitle: IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)
-  publisher: Intergovernmental Panel on Climate Change (IPCC)
-  place: Geneva
+  booktitle: Intergovernmental Panel on Climate Change (IPCC) Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)
+  publisher: Cambridge University Press
+  place: Cambridge, UK and New York, NY, USA
   pages: 131–202
-  pdf: https://report.ipcc.ch/srocc/pdf/SROCC_FinalDraft_Chapter2.pdf
+  chapterdoi: 10.1017/9781009157964.004
+  pdf: https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/04_SROCC_Ch02_FINAL.pdf
   openaccess: Y
   pdf_text: Download chapter pdf
   pdf_external: Y
