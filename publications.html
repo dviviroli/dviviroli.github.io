@@ -50,8 +50,13 @@ title: Publications
 					{% else %}
 						{{ item.title }}.
 					{% endif %}
-					<i>{{ item.archive }}</i>, {{ item.date }},
-					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+					<i>{{ item.archive }}</i>,
+					{% if item.doi %}
+						{{ item.date }},
+						<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+					{% else %}
+						{{ item.date }}.
+					{% endif %}
 					{% include publications_pdf_and_notes.html %}
 				</li>
 			{% endif %}
