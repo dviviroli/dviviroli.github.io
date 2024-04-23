@@ -1,5 +1,18 @@
 # remember to put on unit news and board with an eyecatcher once published
 
+- authors: Muñoz R, Vaghefi SA, Drenkhan F, Santos MJ, Viviroli D, Muccione V, Huggel C
+  year: 2024
+  title: Assessing Water Management Strategies in Data-Scarce Mountain Regions under Uncertain Climate and Socio-Economic Changes
+  journal: Water Resources Management
+  volume: published online
+  # issue:
+  # pages:
+  doi: "10.1007/s11269-024-03853-5"
+  pdf: https://link.springer.com/content/pdf/10.1007/s11269-024-03853-5.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+
 - authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
   year: 2023
   title: "CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments in hydrologic Switzerland"
