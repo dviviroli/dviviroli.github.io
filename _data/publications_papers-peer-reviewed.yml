@@ -1,4 +1,16 @@
-# remember to put on unit news and board with an eyecatcher once published
+
+- authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
+  year: 2024
+  title: "Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments"
+  journal: Geoscientific Model Development
+  volume: published online
+  # issue:
+  # pages:
+  doi: "10.5194/gmd-17-5123-2024"
+  pdf: https://gmd.copernicus.org/articles/17/5123/2024/gmd-17-5123-2024.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
 
 - authors: Muñoz R, Vaghefi SA, Drenkhan F, Santos MJ, Viviroli D, Muccione V, Huggel C
   year: 2024
