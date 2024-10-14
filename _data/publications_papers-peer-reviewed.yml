@@ -1,4 +1,16 @@
 
+- authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
+  year: 2024
+  title: Impact of different weather generator scenarios on extreme flood estimates in Switzerland
+  journal: Stochastic Environmental Research and Risk Assessment
+  volume: accepted
+  # pages: ..................
+  # doi: ""
+  # pdf:
+  # pdf_external: Y
+  # openaccess: Y
+  new: Y
+
 - authors: Hanus S, Burek P, Smilovic MM, Seibert J, Viviroli D
   year: 2024
   title: Seasonal variability in the global relevance of mountains to satisfy lowland water demand
@@ -47,7 +59,7 @@
   pdf: https://essd.copernicus.org/articles/15/5755/2023/essd-15-5755-2023.pdf
   pdf_external: Y
   openaccess: Y
-  new: Y
+  new: N
 
 - authors: Viviroli D, Sikorska-Senoner AE, Evin G, Staudinger M, Kauzlaric M, Chardon J, Favre AC, Hingray B, Nicolet G, Raynaud D, Seibert J, Weingartner R, Whealton C
   year: 2022
