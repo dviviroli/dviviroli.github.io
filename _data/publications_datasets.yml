@@ -1,3 +1,12 @@
+
+- authors: Hanus S, Burek P, Smilovic M, Seibert J, Viviroli D
+  year: 2024
+  title: Seasonal variability in the global relevance of mountains to satisfy lowland water demand
+  repository: Zenodo Digital Repository
+  doi: 10.5281/zenodo.13354811
+  openaccess: Y
+  new: Y
+
 - authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
   year: 2023
   title: Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) - Data Set
@@ -8,9 +17,9 @@
 
 - authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
   year: 2023
-  title: Catchment attributes and hydro-meteorological time series for large-sample studies across hydrologic Switzerland (CAMELS-CH). Pre-release, version 0.5
+  title: Catchment attributes and hydro-meteorological time series for large-sample studies across hydrologic Switzerland (CAMELS-CH).
   repository: Zenodo Digital Repository
-  doi: 10.5281/zenodo.7784633
+  doi: 10.5281/zenodo.10354485
   openaccess: Y
   new: Y
 

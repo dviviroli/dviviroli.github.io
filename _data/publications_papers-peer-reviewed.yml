@@ -11,12 +11,12 @@
   # openaccess: Y
   new: Y
 
-- authors: Hanus S, Burek P, Smilovic MM, Seibert J, Viviroli D
+- authors: Hanus S, Burek P, Smilovic M, Seibert J, Viviroli D
   year: 2024
   title: Seasonal variability in the global relevance of mountains to satisfy lowland water demand
   journal: Environmental Research Letters
-  volume: accepted
-  # pages: ..................
+  volume: 19
+  pages: 114078
   doi: "10.1088/1748-9326/ad8507"
   pdf: https://iopscience.iop.org/article/10.1088/1748-9326/ad8507/pdf
   pdf_external: Y
