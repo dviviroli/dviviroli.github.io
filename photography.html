@@ -1,0 +1,101 @@
+---
+layout: photography
+title: Photography
+---
+
+<div id="gallery"> <!--key to making poptrox work-->
+
+	<section id="main">
+		<div class="container">
+			<h2>Water</h2>
+			<a class="anchor" id="wa"></a>
+		</div>
+	</section>
+
+	<section id="main" class="wrapper">
+		{% for image in site.static_files %}
+			{% if image.path contains 'fulls' and image.path contains 'water'%}
+				<article class="thumb">
+					<a href="{{ site.baseurl }}{{ site.image_water_fulls_loc }}/{{ image.name }}" class="image">
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_water_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
+					</a>
+				</article>
+			{% endif %}
+		{% endfor %}
+	</section>
+
+	<section id="main">
+		<div class="container">
+			<h2 style="padding-top: 2em">Mountains</h2>
+			<a class="anchor" id="mo"></a>
+		</div>
+	</section>
+
+	<section id="main" class="wrapper">
+		{% for image in site.static_files %}
+			{% if image.path contains 'fulls' and image.path contains 'mountains' %}
+				<article class="thumb">
+					<a href="{{ site.baseurl }}{{ site.image_mountains_fulls_loc }}/{{ image.name }}" class="image">
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_mountains_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
+					</a>
+				</article>
+			{% endif %}
+		{% endfor %}
+	</section>
+
+	<section id="main">
+		<div class="container">
+			<h2 style="padding-top: 2em">Weather</h2>
+			<a class="anchor" id="we"></a>
+		</div>
+	</section>
+
+	<section id="main" class="wrapper">
+		{% for image in site.static_files %}
+			{% if image.path contains 'fulls' and image.path contains 'weather' %}
+				<article class="thumb">
+					<a href="{{ site.baseurl }}{{ site.image_weather_fulls_loc }}/{{ image.name }}" class="image">
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_weather_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_weather_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
+					</a>
+				</article>
+			{% endif %}
+		{% endfor %}
+	</section>
+
+	<section id="main">
+		<div class="container">
+			<h2 style="padding-top: 2em">Snow and ice</h2>
+			<a class="anchor" id="si"></a>
+		</div>
+	</section>
+
+	<section id="main" class="wrapper">
+		{% for image in site.static_files %}
+			{% if image.path contains 'fulls' and image.path contains 'snow_ice' %}
+				<article class="thumb">
+					<a href="{{ site.baseurl }}{{ site.image_snow_ice_fulls_loc }}/{{ image.name }}" class="image">
+						<!-- <img class="lozad" data-src="{{ site.baseurl }}{{ site.image_snow_ice_thumbs_loc }}/{{ image.name }}"/> -->
+						<!-- <noscript> -->
+							<img src="{{ site.baseurl }}{{ site.image_snow_ice_thumbs_loc }}/{{ image.name }}"/>
+						<!-- </noscript> -->
+					</a>
+				</article>
+			{% endif %}
+		{% endfor %}
+	</section>
+
+
+<center><p style="color: #696969">Photo gallery based on <a target="_blank" rel="noopener noreferrer" style="color: #696969" href="https://html5up.net/multiverse">"Multiverse" by HTML5 UP</a></p></center>
+<br>
+
+
+</div>

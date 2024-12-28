@@ -1,0 +1,15 @@
+
+# Beware, need to rebuild with jekyll serve from scratch if changed here,
+# or added photos. Changes are not updated real-time!
+
+image_water_fulls_loc: "/images/copyrighted/water/fulls"
+image_water_thumbs_loc: "/images/copyrighted/water/thumbs"
+
+image_mountains_fulls_loc: "/images/copyrighted/mountains/fulls"
+image_mountains_thumbs_loc: "/images/copyrighted/mountains/thumbs"
+
+image_weather_fulls_loc: "/images/copyrighted/weather/fulls"
+image_weather_thumbs_loc: "/images/copyrighted/weather/thumbs"
+
+image_snow_ice_fulls_loc: "/images/copyrighted/snow_ice/fulls"
+image_snow_ice_thumbs_loc: "/images/copyrighted/snow_ice/thumbs"

@@ -1,0 +1,248 @@
+# for book chapters can use "authorship" field to e.g. add "contributions to" before
+# list of editors (and omit authors and chapter title)
+
+- authors: "Adler C, Wester P, Bhatt I, Huggel C, Insarov G, Morecroft M, Muccione V, Prakash A, Alcántara-Ayala I, Allen SK, Bader M, Bigler S, Camac J, Chakraborty R, Cuni A, Cuvi N, Drenkhan F, Hussain A, Maharjan A, Marchant R, McDowell G, Morin S, Niggli L, Ochoa A, Pandey A, Postigo J, Razanatsoa E, Rudloff VM, Scott C, Stevens M, Stone D, Thorn J, Thornton J, Viviroli D, Werners S"
+  year: 2022
+  title: "Cross-Chapter Paper 5: Mountains"
+  editors: Pörtner HO, Roberts DC, Tignor M, Poloczanska ES, Mintenbeck K, Alegría A, Craig M, Langsdorf S, Löschke S, Möller V, Okem A, Rama B, eds
+  booktitle: "Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC)"
+  publisher: Cambridge University Press
+  place: Cambridge, UK and New York, NY, USA
+  pages: 2273–2318
+  pdf: "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP5.pdf"
+  chapterdoi: 10.1017/9781009325844.022
+  openaccess: Y
+  pdf_text: Download chapter pdf
+  pdf_external: Y
+
+- authors: Seibert J, Jenicek M, Huss M, Ewen T, Viviroli D
+  year: 2021
+  title: Snow and Ice in the Hydrosphere
+  editors: Haeberli W, Whiteman C
+  booktitle: Snow and Ice-Related Hazards, Risks, and Disasters (Second Edition)
+  publisher: Elsevier
+  isbn: 978-0-12-817129-5
+  chapterdoi: 10.1016/B978-0-12-817129-5.00010-X
+  place: Amsterdam
+  pages: 93–135
+  pdf: /documents/Seibert_et_al_2021_Hazards_and_Disasters_Series.pdf
+  pdf_text: Download chapter pdf
+
+# - editors: Andres N, Steeb N, Badoux A, Hegg C, eds
+#   authorship: Five chapters in
+#   year: 2021
+#   booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR. Methodik und Resultate
+#   publisher: Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft (WSL)
+#   place: Birmensdorf
+#   series: WSL Berichte
+#   volume: 104
+#   issn: 2296-3456
+#   notes: "See Chapters 5 (Entwicklung hydrometeorologischer Grundlagen), 10 (Resultate der hydrometeorologischen Grundlagen), 17 (Diskussion der Unsicherheiten und Limitationen), 18 (Schlussfolgerungen) and 19 (Ausblick)"
+#   pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+#   pdf_external: Y
+#   new: Y
+
+- authors: Andres N, Badoux A, Dang V, Hingray B, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+  year: 2021
+  title: Diskussion der Unsicherheiten und Limitationen
+  editors: Andres N, Steeb N, Badoux A, Hegg C
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+  series: WSL Berichte
+  volume: 104
+  publisher: WSL
+  place: Birmensdorf
+  pages: 203-206
+  openaccess: Y
+  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+  pdf_external: Y
+
+- authors: Andres N, Badoux A, Dang V, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+  year: 2021
+  title: Schlussfolgerungen
+  editors: Andres N, Steeb N, Badoux A, Hegg C
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+  series: WSL Berichte
+  volume: 104
+  publisher: WSL
+  place: Birmensdorf
+  pages: 207-212
+  openaccess: Y
+  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+  pdf_external: Y
+
+- authors: Andres N, Badoux A, Dang V, Müller M, Pfäffli M, Schwab S, Sutter A, Viviroli D, Hegg C
+  year: 2021
+  title: Ausblick
+  editors: Andres N, Steeb N, Badoux A, Hegg C
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+  series: WSL Berichte
+  volume: 104
+  publisher: WSL
+  place: Birmensdorf
+  pages: 213-215
+  openaccess: Y
+  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+  pdf_external: Y
+
+- authors: Baer P, Kauzlaric M, Viviroli D, Whealton C
+  year: 2021
+  title: Resultate der hydrometeorologischen Grundlagen
+  editors: Andres N, Steeb N, Badoux A, Hegg C
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+  series: WSL Berichte
+  volume: 104
+  publisher: WSL
+  place: Birmensdorf
+  pages: 71–80
+  openaccess: Y
+  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+  pdf_external: Y
+
+- authors: Kauzlaric M, Nicolet G, Viviroli D
+  year: 2021
+  title: Entwicklung hydrometeorologischer Grundlagen
+  editors: Andres N, Steeb N, Badoux A, Hegg C
+  booktitle: Extremhochwasser an der Aare. Hauptbericht Projekt EXAR, Methodik und Resultate
+  series: WSL Berichte
+  volume: 104
+  publisher: WSL
+  place: Birmensdorf
+  pages: 29-37
+  openaccess: Y
+  pdf: https://www.wsl.ch/de/publikationen/extremhochwasser-an-der-aare-hauptbericht.html
+  pdf_external: Y
+
+- authors: Martius O, Viviroli D, Rössler O, Zischg A, Röthlisberger V, Aemisegger F, Schulte L, Stuber M, Peña JC, Ruiz-Villanueva V, Molnar P
+  year: 2020
+  title: Understanding flood triggering mechanisms and flood risk changes
+  editors: Ruiz-Villanueva V, Molnar P, eds
+  booktitle: Past, current, and future changes in floods in Switzerland. Hydro-CH2018 project
+  publisher: Commissioned by the Federal Office for the Environment (FOEN)
+  place: Bern
+  chapterdoi: 10.3929/ethz-b-000462775
+  pages: 38–50
+  openaccess: Y
+  pdf: https://doi.org/10.3929/ethz-b-000462775
+  pdf_external: Y
+
+- authors: "Hock R, Rasul G, Adler C, Cáceres B, Gruber S, Hirabayashi Y, Jackson M, Kääb A, Kang S, Kutuzov S, Milner A, Molau U, Morin S, Orlove B, Steltzer H, Allen S, Arenson L, Baneerjee S, Barr I, Bórquez R, Brown L, Cao B, Carey M, Cogley G, Fischlin A, de Sherbinin A, Eckert N, Geertsema M, Hagenstad M, Honsberg M, Hood E, Huss M, Jimenez Zamora E, Kotlarski S, Lefeuvre PM, López Moreno JI, Lundquist J, McDowell G, Mills S, Mou C, Nepal S, Noetzli J, Palazzi E, Pepin N, Rixen C, Shahgedanova M, Skiles SM, Vincent C, Viviroli D, Weyhenmeyer G, Sherpa PY, Weyer N, Wouters B, Yasunari TJ, You Q, Zhang Y"
+  year: 2019
+  title: High Mountain Areas
+  editors: Pörtner HO, Roberts DC, Masson-Delmotte V, Zhai P, Tignor M, Poloczanska E, Mintenbeck K, Alegría A, Nicolai M, Okem A, Petzold J, Rama B, Weyer NM, eds
+  booktitle: Intergovernmental Panel on Climate Change (IPCC) Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)
+  publisher: Cambridge University Press
+  place: Cambridge, UK and New York, NY, USA
+  pages: 131–202
+  chapterdoi: 10.1017/9781009157964.004
+  pdf: https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/04_SROCC_Ch02_FINAL.pdf
+  openaccess: Y
+  pdf_text: Download chapter pdf
+  pdf_external: Y
+  links:
+  - url: https://www.ipcc.ch/srocc/chapter/chapter-2/
+    text: Access chapter online
+    link_external: Y
+  mediacoverage:
+  - title: Die Zeit
+    url: https://www.zeit.de/wissen/umwelt/2019-09/sonderbericht-klimawandel-ipcc-report-ergebnisse-weltklimarat-klimaschutz
+    external: Y
+
+- authors: Viviroli D
+  year: 2013
+  title: Methoden für die Hochwasserabschätzung
+  editors: Spreafico M, Viviroli D, eds
+  booktitle: Ausgewählte Beiträge zur Abschätzung von Hochwasser und Feststofftransport in der Schweiz – Grundlagen, Methoden, Fallbeispiele
+  series: Beiträge zur Hydrologie der Schweiz
+  volume: 40
+  publisher: Schweizerische Gesellschaft für Hydrologie und Limnologie (SGHL) und Schweizerische Hydrologische Kommission (CHy) der Akademie der Naturwissenschaften (SCNAT)
+  place: Bern
+  isbn: 978-3-033-03838-7
+  pages: 47–50
+
+- authors: Viviroli D
+  year: 2013
+  title: Modell PREVAH
+  editors: Spreafico M, Viviroli D, eds
+  booktitle: Ausgewählte Beiträge zur Abschätzung von Hochwasser und Feststofftransport in der Schweiz – Grundlagen, Methoden, Fallbeispiele
+  series: Beiträge zur Hydrologie der Schweiz
+  volume: 40
+  publisher: Schweizerische Gesellschaft für Hydrologie und Limnologie (SGHL) und Schweizerische Hydrologische Kommission (CHy) der Akademie der Naturwissenschaften (SCNAT)
+  place: Bern
+  isbn: 978-3-033-03838-7
+  pages: 51–58
+
+- authors: Wehren B, Weingartner R, Schädler B, Viviroli D
+  year: 2010
+  title: General Characteristics of Alpine Waters
+  editors: Bundi U, ed
+  booktitle: Alpine Waters
+  series: Handbook of Environmental Chemistry
+  volume: 6
+  publisher: Springer
+  place: Berlin
+  isbn: 978-3-540-88274-9
+  pages: 17–58
+  chapterdoi: 10.1007/978-3-540-88275-6_2
+  pdf: /documents/Wehren_et_al_2010_HandbEnvironChem_6.pdf
+
+- authors: Barben M, Hänggi P, Viviroli D
+  year: 2010
+  title: Wasserhaushalt ausgewählter mittelgrosser Einzugsgebiete 1961–2007 [Bilan hydrologique d’un choix de bassins versants de taille moyenne, 1961–2007 / Bilancio idrologico di prescelti bacini imbriferi di media grandezza 1961–2007 / Water Balance in Selected Medium-Sized Catchments 1961–2007]
+  series: Hydrologischer Atlas der Schweiz (HADES)
+  publisher: Bundesamt für Umwelt (BAFU)
+  place: Bern
+  isbn: 978-3-95202620-5
+  pdf: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-5
+  tafel: 6.5
+  openaccess: Y
+  pdf_text: Download pdf and data
+  pdf_external: Y
+
+- authors: Viviroli D, Buytaert W, Messerli B, Schädler B, Schreier H, Weingartner R
+  year: 2009
+  title: Mountain Waters
+  editors: Kohler T, Maselli D, eds
+  booktitle: Mountains and Climate Change – From Understanding to Action. Contribution to the 15th World Climate Conference in Copenhagen, DK (COP15)
+  publisher: Swiss Agency for Development and Cooperation (SDC)
+  place: Bern
+  isbn: 978-3-905835-16-8
+  pages: 10–19
+  openaccess: Y
+  pdf: documents/Viviroli_et_al_2009_COP15_2.pdf
+
+- authors: Schwanbeck J, Viviroli D, Weingartner R, Frei C, Schumann A
+  year: 2008
+  title: Modellbasierte Sensitivitätsanalysen für das Berner Oberland
+  editors: Bezzola GR, Hegg C, eds
+  booktitle: Ereignisanalyse Hochwasser 2005. Teil 2 – Analyse von Prozessen, Massnahmen und Gefahrengrundlagen
+  series: Umwelt-Wissen
+  volume: 08-25
+  publisher: Bundesamt für Umwelt (BAFU)
+  place: Bern
+  pages: 48–58
+  openaccess: Y
+  pdf: https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html
+  pdf_external: Y
+
+- authors: Viviroli D, Weingartner R
+  year: 2004
+  title: Hydrologische Bedeutung des europäischen Alpenraumes [Importance hydrologique de la région alpine européenne / L'importanza idrologica della regione alpina europea / The Hydrological Significance of the European Alps]
+  series: Hydrologischer Atlas der Schweiz (HADES)
+  publisher: Bundesamt für Umwelt (BAFU)
+  place: Bern
+  isbn: 978-3-95202620-5
+  tafel: 6.4
+  openaccess: Y
+  pdf: https://hydrologischeratlas.ch/produkte/druckausgabe/wasserhaushalt/tafel-6-4
+  pdf_text: Download pdf and data
+  pdf_external: Y
+
+- authors: Jakob B, Viviroli D, Zahnen B
+  year: 1998
+  title: Waldflächenveränderungen im Kanton Bern 1865–1995
+  editors: Pfister C, Egli HR, eds
+  booktitle: Historisch-Statistischer Atlas des Kantons Bern
+  publisher: Historischer Verein des Kantons Bern
+  place: Bern
+  isbn: 978-3-85731020-1
+  pages: 32–33

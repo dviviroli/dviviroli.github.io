@@ -1,0 +1,71 @@
+- authors: Viviroli D
+  year: 2018
+  title: "Water in Mountain Areas: Resource and Threat"
+  subtitle: Habilitation thesis, Faculty of Science, University of Zurich, Zurich
+
+- authors: Viviroli D, Weingartner R
+  year: 2012
+  title: Prozessbasierte Hochwasserabschätzung für mesoskalige Einzugsgebiete. Grundlagen und Interpretationshilfe zum Verfahren PREVAH-regHQ
+  series: Beiträge zur Hydrologie der Schweiz
+  volume: 39
+  publisher: Schweizerische Gesellschaft für Hydrologie und Limnologie (SGHL) und Schweizerische Hydrologische Kommission (CHy) der Akademie der Naturwissenschaften (SCNAT)
+  place: Bern
+  isbn: 978-3-033-03497-6
+  openaccess: Y
+  pdf: https://naturwissenschaften.ch/service/publications/55433-prozessbasierte-hochwasserabschaetzung-fuer-mesoskalige-einzugsgebiete
+  pdf_external: Y
+  links:
+  - url: "http://www.hydrologie.unibe.ch/PREVAHregHQ/home.html"
+    text: Download data
+    external: Y
+
+- authors: Viviroli D, Gurtz J, Zappa M
+  year: 2007
+  title: The Hydrological Modelling System PREVAH
+  series: Geographica Bernensia
+  volume: P40
+  publisher: Institute of Geography, University of Bern
+  place: Bern
+  isbn: 978-3-90583501-4
+  links:
+  - url: /documents/Viviroli_et_al_2007_GB_P40_I.pdf
+    text: Download Part I (overview) as pdf
+  - url: /documents/Viviroli_et_al_2007_GB_P40_II.pdf
+    text: Download Part II (model description) as pdf
+  - url: /documents/Viviroli_et_al_2007_GB_P40_III.pdf
+    text: Download Part III (user manual) as pdf
+  notes:
+  - text: For the peer-reviewed introduction  to PREVAH (Viviroli et al., 2009, Environ. Modell. Softw.) see further above.
+
+- authors: Viviroli D
+  year: 2007
+  title: Ein prozessorientiertes Modellsystem zur Ermittlung seltener Hochwasserabflüsse für ungemessene Einzugsgebiete der Schweiz
+  subtitle: Inauguraldissertation der Philosophisch-naturwissenschaftlichen Fakultät der Universität Bern
+  series: Geographica Bernensia
+  volume: G77
+  publisher: Geographisches Institut der Universität Bern
+  place: Bern
+  isbn: 978-3-90583500-7
+  pdf: https://boris.unibe.ch/165989/1/Viviroli_2007_G77.pdf
+  pdf_external: Y
+  openaccess: Y
+  mediacoverage:
+  - title: Neue Zürcher Zeitung
+    url: /documents/Denzler_2008_NZZ.pdf
+  - title: VDI Nachrichten
+    url: /documents/Sauer_2007_VDI.pdf
+  notes:
+  - text: Awarded with the University of Bern faculty prize for best dissertation in Geosciences 2007
+    highlight: Y
+
+- authors: Viviroli D
+  year: 2001
+  title: Zur hydrologischen Bedeutung der Gebirge
+  subtitle: Diplomarbeit der Philosophisch-naturwissenschaftlichen Fakultät der Universität Bern
+  series: Publikationen Gewässerkunde
+  volume: 265
+  publisher: Geographisches Institut der Universität Bern
+  place: Bern
+  mediacoverage:
+  - title: Neue Zürcher Zeitung
+    url: /documents/Denzler_2002_NZZ.pdf

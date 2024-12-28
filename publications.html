@@ -1,0 +1,454 @@
+---
+layout: default
+title: Publications
+---
+
+<!--  for book chapters can use "authorship" field to e.g. add "contributions to" before list of editors (omit authors and chapter title, then) -->
+
+<!-- To add icons (below), have to remove underline from link style yet, and change text color -->
+<div class="container">
+	<ul class="icons">
+		<li><a target="_blank" rel="noopener noreferrer" href="https://www.webofscience.com/wos/author/record/1680894" class="ai ai-researcherid ai-2x"></a></li>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/profile/Daniel_Viviroli" class="ai ai-researchgate fa-2x"></a></li>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://scholar.google.ch/citations?user=azF7iyMAAAAJ&hl=de" class="ai ai-google-scholar ai-2x"></a></li>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://orcid.org/0000-0002-1214-8657" class="ai ai-orcid ai-2x"></a></li>
+		<li><b><a target="_blank" rel="noopener noreferrer" href="https://www.zora.uzh.ch/cgi/search/archive/advanced?creators_name%2Feditors_name=Viviroli,%20D" style="font-size:11pt;line-height:0.95;display:block">Zurich Open Repository<br>and Archive (ZORA)</a></b></li>
+	<ul>
+</div>
+
+<!-- Altmetric/Dimensions and PlumX badges -->
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script> <!-- probably does not work yet. see https://plu.mx/plum/developers/widgets# -->
+
+<!-- OPTIONS -->
+{% assign shownewonly = false %}
+{% assign oldestyearshown = 1900 %}
+{% assign showdimensions = false %}
+{% assign showaltmetric = false %}
+{% assign showplumx = false %}
+
+{% if site.data.publications_papers-preprints %}
+
+	<h2>Preprints</h2>
+	<a class="anchor" id="PP"></a>
+	<ol reversed="">
+		{% for item in site.data.publications_papers-preprints %}
+			{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+					{% if item.new == "Y" %}
+						<div class="tooltip">
+							<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+							<span class="tooltiptext">added recently</span>
+						</div>
+					{% endif %}
+					<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+					{{ item.year }}.</b>
+					{% capture lastchar %}{{ item.title | slice:-1 }}{% endcapture %}
+					{% if lastchar == "?" or lastchar == "!" %}
+						{{ item.title }}
+					{% else %}
+						{{ item.title }}.
+					{% endif %}
+					<i>{{ item.archive }}</i>,
+					{% if item.doi %}
+						{{ item.date }},
+						<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+					{% else %}
+						{{ item.date }}.
+					{% endif %}
+					{% include publications_pdf_and_notes.html %}
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+
+	<hr/>
+
+{% endif %}
+
+<h2>Articles in peer-reviewed journals <small>(ISI listed)</small></h2>
+<a class="anchor" id="JP"></a>
+<ol reversed="">
+	{% for item in site.data.publications_papers-peer-reviewed %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				{% capture lastchar %}{{ item.title | slice:-1 }}{% endcapture %}
+				{% if lastchar == "?" or lastchar == "!" %}
+					{{ item.title }}
+				{% else %}
+					{{ item.title }}.
+				{% endif %}
+				<i>{{ item.journal }}</i>,
+				{% if item.volume == "in press" or item.volume == "accepted" or item.volume == "published online" %}
+					{% if item.doi %}
+						{{ item.volume }},
+						<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+					{% else %}
+						{{ item.volume }}.
+					{% endif %}
+				{% elsif item.special_issue %}
+					{{ item.special_issue }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% elsif item.issue and item.pages and item.doi %}
+					<b>{{ item.volume }}</b>({{ item.issue }}),
+					{{ item.pages }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% elsif item.volume and item.issue == null and item.pages == null and item.doi %}
+					<b>{{ item.volume }}</b>,
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% elsif item.issue and item.doi == null %}
+					<b>{{ item.volume }}</b>({{ item.issue }}),
+					{{ item.pages }}.
+				{% elsif item.issue == null and item.doi %}
+					<b>{{ item.volume }}</b>,
+					{{ item.pages }},
+					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% else %}
+					<b>{{ item.volume }}</b>,
+					{{ item.pages }}.
+				{% endif %}
+				{% if showdimensions and item.doi %}
+				  <a class="__dimensions_badge_embed__" data-doi="{{ item.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+					<!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a> -->
+				{% endif %}
+				{% if showaltmetric and item.doi %}
+					<a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a>
+				{% endif %}
+				{% if showplumx and item.doi %}
+					<a href="https://plu.mx/plum/a/?doi={{ item.doi }}" class="plumx-plum-print-popup"></a>
+			  {% endif %}
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Authored monographs</h2>
+<a class="anchor" id="BM"></a>
+<ol reversed="">
+	{% for item in site.data.publications_authored-monographs %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				<i>{{ item.title }}</i>.
+				{% if item.subtitle %}
+					{{ item.subtitle }}.
+				{% endif %}
+				{% if item.series and item.volume %}
+					{{ item.series }}, <b>{{ item.volume }}</b>.
+				{% endif %}
+				{% if item.publisher and item.place            and item.isbn         %}
+					{{ item.publisher }}, {{ item.place }}, ISBN {{ item.isbn }}.
+				{% elsif item.publisher and item.place == null and item.isbn         %}
+					{{ item.publisher }}, ISBN {{ item.isbn }}.
+				{% elsif item.publisher and item.place         and item.isbn == null %}
+					{{ item.publisher }}, {{ item.place }}.
+				{% elsif item.publisher and item.place == null and item.isbn == null %}
+					{{ item.publisher }}.
+				{% endif %}
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Edited special issues in peer-reviewed journals</h2>
+<a class="anchor" id="JE"></a>
+<ol reversed="">
+	{% for item in site.data.publications_edited-journals %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.editors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				{{ item.title }}.
+				<i>{{ item.journal }}</i>,
+				{{ item.specialissuename }}, <b>{{ item.specialissuevolume }}</b>.
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Edited books</h2>
+<a class="anchor" id="BE"></a>
+<ol reversed="">
+	{% for item in site.data.publications_edited-books %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.editors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				<i>{{ item.title }}</i>.
+				{% if item.series and item.volume %}
+					{{ item.series }}, <b>{{ item.volume }}</b>.
+				{% endif %}
+					{% if item.publisher and item.place and item.isbn %}
+						{{ item.publisher }}, {{ item.place }}, ISBN {{ item.isbn }}.
+				{% elsif item.publisher and item.place == null and item.isbn %}
+					{{ item.publisher }}, ISBN {{ item.isbn }}.
+				{% elsif item.publisher and item.place == null and item.isbn == null %}
+					{{ item.publisher }}.
+				{% endif %}
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Book chapters</h2>
+<a class="anchor" id="BC"></a>
+<ol reversed="">
+	{% for item in site.data.publications_book-chapters %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				{{ item.authorship }}
+				{% if item.authors %}
+					<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+						{{ item.year }}.</b>
+						{{ item.title }}.
+				{% endif %}
+				{% if item.editors %}
+					<b>{{ item.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}{% if item.authors == null %}, {{ item.year }}{% endif %}.</b>
+				{% endif %}
+
+				{% if item.booktitle %}
+					<i>{{ item.booktitle }}</i>.
+					{% if item.series %}{{ item.series }}{% if item.volume %}, <b>{{ item.volume }}</b>{% endif %}.{% endif %}
+				{% else %}
+					{% if item.series %}<i>{{ item.series }}</i>{% if item.volume %}, <b>{{ item.volume }}</b>{% endif %}.{% endif %}
+				{% endif %}
+
+				{{ item.publisher }}<!--
+	   -->{% if item.place %}<!--
+	     -->, {{ item.place }}<!--
+		 -->{% endif %}<!--
+	   -->{% if item.doi %}<!--
+	     -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a><!--
+	   -->{% elsif item.isbn %}<!--
+	     -->, ISBN {{ item.isbn }}<!--
+		 -->{% elsif item.issn %}<!--
+	     -->, ISSN {{ item.issn }}<!--
+		 -->{% endif %}<!--
+	   -->{% if item.pages %}, pp. {{item.pages}}<!--
+	   -->{% elsif item.tafel %}<!--
+	      -->, Tafel <b>{{item.tafel}}</b><!--
+	   -->{% endif %}<!--
+		 -->{% if item.chapterdoi %}<!--
+	      -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.chapterdoi }}" target='_blank'>doi:{{ item.chapterdoi }}</a><!--
+		 -->{% endif %}<!--
+	   -->.
+
+			 {% if showdimensions and item.chapterdoi %}
+				 <a class="__dimensions_badge_embed__" data-doi="{{ item.chapterdoi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+				 <!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a> -->
+			 {% endif %}
+			 {% if showaltmetric and item.chapterdoi %}
+				 <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.chapterdoi }}" data-hide-no-mentions="true"></a>
+			 {% endif %}
+
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Articles in further journals and newspapers, blog entries</h2>
+<a class="anchor" id="JF"></a>
+<ol reversed="">
+	{% for item in site.data.publications_papers-further %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				{{ item.title }}.
+				{% if item.pages %}
+					<i>{{ item.journal }}</i>,
+					{% if item.issue and item.doi %}
+						<b>{{ item.volume }}</b>({{ item.issue }}),
+						{{ item.pages }},
+						<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+					{% elsif item.issue and item.doi == null %}
+						<b>{{ item.volume }}</b>({{ item.issue }}),
+						{{ item.pages }}.
+					{% elsif item.issue == null and item.doi %}
+						<b>{{ item.volume }}</b>,
+						{{ item.pages }},
+						<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+					{% else %}
+						<b>{{ item.volume }}</b>,
+						{{ item.pages }}.
+					{% endif %}
+				{% else %}
+					<i>{{ item.journal }}</i>,
+					<b>{{ item.volume }}</b>.
+				{% endif %}
+				{% if showdimensions and item.doi %}
+					<a class="__dimensions_badge_embed__" data-doi="{{ item.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+					<!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a> -->
+				{% endif %}
+				{% if showaltmetric and item.doi %}
+					<a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a>
+				{% endif %}
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Conference proceedings</h2>
+<a class="anchor" id="CP"></a>
+<ol reversed="">
+	{% for item in site.data.publications_conference-proceedings %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				{% capture lastchar %}{{ item.title | slice:-1 }}{% endcapture %}
+				{% if lastchar == "?" or lastchar == "!" %}
+					{{ item.title }}
+				{% else %}
+					{{ item.title }}.
+				{% endif %}
+				{% if item.editors %}
+					<b>{{ item.editors | replace:'Viviroli D','<u>Viviroli D</u>' }}.</b>
+				{% endif %}
+				{% if item.booktitle %}
+					<i>{{ item.booktitle }}</i>.
+					{% if item.series and item.volume %}
+						{{ item.series }}, <b>{{ item.volume }}</b>.
+					{% endif %}
+				{% elsif item.series and item.volume %}
+					<i>{{ item.series }}</i>, <b>{{ item.volume }}</b>.
+				{% endif %}
+
+				{{ item.publisher }}<!--
+	   -->{% if item.place %}<!--
+	     -->, {{ item.place }}<!--
+		 -->{% endif %}<!--
+	   -->{% if item.doi %}<!--
+	     -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a><!--
+	   -->{% elsif item.isbn %}<!--
+	     -->, ISBN {{ item.isbn }}<!--
+		 -->{% endif %}<!--
+	   -->{% if item.pages %}, pp. {{item.pages}}<!--
+	   -->{% elsif item.tafel %}<!--
+	      -->, Tafel <b>{{item.tafel}}</b><!--
+	   -->{% endif %}<!--
+		 -->{% if item.chapterdoi %}<!--
+	      -->, <a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.chapterdoi }}" target='_blank'>doi:{{ item.chapterdoi }}</a><!--
+		 -->{% endif %}<!--
+	   -->.
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Project reports</h2>
+<a class="anchor" id="PR"></a>
+<ol reversed="">
+	{% for item in site.data.publications_project-reports %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				<i>{{ item.title }}</i>.
+				{% if item.report %}
+					{{ item.report }}.
+				{% endif %}
+				{{ item.institution }}.
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
+
+<hr/>
+
+<h2>Data sets</h2>
+<a class="anchor" id="DS"></a>
+<ol reversed="">
+	{% for item in site.data.publications_datasets %}
+		{% if item.year >= oldestyearshown or item.new == "Y" and shownewonly == true %}
+			<li>
+				{% if item.new == "Y" %}
+					<div class="tooltip">
+						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+						<span class="tooltiptext">added recently</span>
+					</div>
+				{% endif %}
+				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
+				{{ item.year }}.</b>
+				{{ item.title }}.
+				<i>{{ item.repository }}</i>,
+				<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
+				{% include publications_pdf_and_notes.html %}
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>

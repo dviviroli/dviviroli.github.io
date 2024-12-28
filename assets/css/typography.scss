@@ -1,0 +1,11 @@
+---
+# SCSS to CSS conversion in jekyll requires two lines of triple dashes at start of file
+# see https://jekyllrb.com/docs/assets/
+---
+
+@import "text-stroke";
+
+.strokeme
+	{
+		@include text-stroke(2, rgba(0,0,0,0.05));
+	}

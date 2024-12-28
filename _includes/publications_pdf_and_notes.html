@@ -1,0 +1,99 @@
+<!-- open access (also for data) -->
+{% if item.openaccess %}
+  <div class="tooltip">
+    <i class="ai ai-open-access"></i>
+    <span class="tooltiptext">Open access</span>
+  </div>
+{% endif %}
+
+<!-- publication pdf -->
+{% if item.pdf %}
+  {% if item.pdf_text %}
+	  {% capture pdf_text %}{{ item.pdf_text }}{% endcapture %}
+  {% else %}
+	  {% capture pdf_text %}Download pdf{% endcapture %}
+  {% endif %}
+  <a target="_blank" rel="noopener noreferrer" href={{ item.pdf }}>{{ pdf_text }}</a>
+  {% if item.pdf_external %}
+    <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ item.pdf }}>
+      <div class="tooltip">
+        <i class="fas fa-external-link-alt fa-xs"></i>
+        <span class="tooltiptext">External link</span>
+      </div>
+    </a>
+  {% endif %}
+{% endif %}
+
+<!-- various links -->
+{% if item.links %}
+  {% for entry in item.links %}
+    <br>
+    <span style="display:block; height:0.50em;"></span>
+    > <a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>{{ entry.text }}</a>
+    {% if entry.external %}
+      <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+        <div class="tooltip">
+          <i class="fas fa-external-link-alt fa-xs"></i>
+          <span class="tooltiptext">External link</span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- media coverage -->
+{% if item.mediacoverage %}
+  <br>
+  <span style="display:block; height:0.50em;"></span>
+  > In the media:
+  {% assign items = item.mediacoverage %}
+  {% for entry in item.mediacoverage %}
+    <a target='_blank' rel="noopener noreferrer" href={{ entry.url }}>{{ entry.title }}</a>
+    {% if entry.external %}
+      <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+        <div class="tooltip">
+          <i class="fas fa-external-link-alt fa-xs"></i>
+          <span class="tooltiptext">External link</span>
+        </div>
+      </a>
+    {% endif %}
+    {% if entry.title != items.last.title %}· {% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- notes -->
+{% if item.notes %}
+  {% for entry in item.notes %}
+    <br>
+    <span style="display:block; height:0.50em;"></span>
+    {% if entry.highlight %}
+      <font color="crimson">
+        {% if entry.url %}
+          >
+          <a target="_blank" rel="noopener noreferrer" style="color:crimson" href={{ entry.url }}>
+            {{ entry.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+          </a>
+          {% else %}
+          > {{ entry.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+          {% endif %}
+      </font>
+    {% else %}
+      {% if entry.url %}
+        >
+        <a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>
+          {{ entry.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+        </a>
+        {% else %}
+        > {{ entry.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+        {% endif %}
+      {% endif %}
+    {% if entry.url and entry.external %}
+      <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+        <div class="tooltip">
+          <i class="fas fa-external-link-alt fa-xs"></i>
+          <span class="tooltiptext">External link</span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+{% endif %}

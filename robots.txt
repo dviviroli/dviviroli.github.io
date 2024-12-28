@@ -1,0 +1,3 @@
+user-agent: *
+disallow: /images/
+sitemap: https://dviviroli.github.io/sitemap.txt

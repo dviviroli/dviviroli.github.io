@@ -1,0 +1,11 @@
+# *** Images ****
+# (c) Copyright
+# Daniel Viviroli, https://github.com/dviviroli, daniel.viviroli - a t - geo.uzh.ch
+# All rights reserved
+# ***************
+
+# *** Webpage ***
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+# Daniel Viviroli, https://github.com/dviviroli, daniel.viviroli - a t - geo.uzh.ch
+# https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+# ***************

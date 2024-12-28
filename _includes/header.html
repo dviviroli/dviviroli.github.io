@@ -1,0 +1,27 @@
+<header id="header" class={{ page.navtype }}>
+  {% if page.navtype != "alt" %}
+    <h1><a href="index.html">Daniel Viviroli</a></h1>
+  {% else %}
+    <h1>Daniel Viviroli</h1>
+  {% endif %}
+  <nav id="nav">
+    <ul>
+      {% for item in site.data.navigation %}
+        <li{{ current }}><a href="{{ item.url }}">{{ item.title }}</a>
+        {% if item.submenu %}
+          <ul>
+            {% for entry in item.submenu %}
+              {% if site.data.publications_papers-preprints == FALSE and entry.text == "Preprints" %}
+              {% else %}
+                <a href="{{ item.url }}#{{ entry.anchor }}">{{ entry.text }}</a>
+                <br>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>

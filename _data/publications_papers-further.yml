@@ -1,0 +1,131 @@
+- authors: Viviroli D
+  year: 2022
+  title: "Wasserkraft im Dilemma: Ein Besuch in der Grimselregion"
+  journal: "GIUZ blog @ Department of Geography, University of Zurich"
+  volume: "04.11.2022"
+  links:
+  - url: "https://blog.geo.uzh.ch/wasserkraft-im-dilemma/"
+    text: Access blog entry
+    external: Y
+
+- authors: Müller D, Bänziger R, Barben M, Kipfer A, Koksch M, Kolb R, Meng A, Salvetti A, Schaefli B, Scherer S, Viviroli D
+  year: 2022
+  title: "Hydrologische Grundlagen und Qualitätssicherung. Eine Auslegeordnung und Empfehlungen"
+  journal: wasser energie luft
+  volume: 114
+  issue: 1
+  pages: 29–31
+  pdf: /documents/KOHS_2022_wel_114.pdf
+
+- authors: Viviroli D
+  year: 2019
+  title: "Der Inn als internationaler Lebensspender"
+  journal: Tiroler Tageszeitung
+  volume: "07.09.2019"
+  pages: 20
+  links:
+  - url: "https://www.tt.com/panorama/natur/15968928/der-inn-als-internationaler-lebensspender"
+    text: Access article online
+    external: Y
+  pdf: /documents/Viviroli_2019_TT_250.pdf
+  mediacoverage:
+  - title: Österreichischer Rundfunk
+    url: https://oe1.orf.at/programm/20191017/574267/Das-Monatsmagazin
+    external: Y
+
+- authors: Köplin N, Viviroli D, Schädler B, Weingartner R
+  year: 2010
+  title: "How does climate change affect mesoscale catchments in Switzerland? – A framework for a comprehensive assessment"
+  journal: Advances in Geosciences
+  volume: 27
+  pages: 111–119
+  doi: "10.5194/adgeo-27-111-2010"
+  pdf: https://www.adv-geosci.net/27/111/2010/
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Zappa M, Jaun S, Badoux A, Schwanbeck J, Addor N, Liechti K, Roeser I, Walser A, Viviroli D, Vogt S, Gerber M, Trösch J, Weingartner R, Oplatka M, Bezzola GR, Rhyner J
+  year: 2010
+  title: "IFKIS-Hydro Sihl: Ein operationelles Hochwasservorhersagesystem für die Stadt Zürich und das Sihltal"
+  journal: wasser energie luft
+  volume: 102
+  issue: 3
+  pages: 238–248
+  pdf: documents/Zappa_et_al_2010_wel_102.pdf
+
+- authors: Viviroli D, Dürr HH, Messerli B, Meybeck, M, Weingartner R
+  year: 2008
+  title: "Mountains of the world – water towers for humanity: Typology, mapping and global significance"
+  journal: Global Water News
+  volume: 7
+  # issue: July 2008
+  pages: 8–9
+
+- authors: Viviroli D, Weingartner R, Gurtz J
+  year: 2008
+  title: Prozessbasierte Hochwasserabschätzung in ungemessenen mesoskaligen Einzugsgebieten der Schweiz
+  journal: wasser energie luft
+  volume: 100
+  issue: 2
+  pages: 125–130
+  pdf: documents/Viviroli_et_al_2008_wel_100.pdf
+
+- authors: Weingartner R, Viviroli D
+  year: 2007
+  title: "Wasserschloss in einer durstigen Welt: Bedeutung der Gebirge für den Wasserhaushalt"
+  journal: Die Alpen
+  volume: 2/2007
+  pages: 34–37
+
+- authors: Schwanbeck J, Viviroli D, Weingartner R
+  year: 2007
+  title: "Das Hochwasser vom August 2005: Könnte es noch schlimmer kommen?"
+  journal: Geosciences Actuel
+  volume: 4/2007
+  pages: 12–15
+
+- authors: Hauser F, Spreafico M, Viviroli D, Weingartner R
+  year: 2005
+  title: "Wasserressourcen der Schweiz – zur Publikation der 7. Lieferung des «Hydrologischen Atlasses der Schweiz»"
+  journal: wasser energie luft
+  volume: 97
+  issue: 7/8
+  pages: 190–194
+
+- authors: Viviroli D, Weingartner R
+  year: 2003
+  title: "Mountains: Sources of the world's freshwater"
+  journal: ICIMOD Newsletter
+  volume: 42
+  pages: 2–3
+
+- authors: Messerli B, Droz M, Germann P, Viviroli D, Weingartner R, Wunderle S
+  year: 2003
+  title: Las montañas, torres de agua del mundo
+  journal: Ciencias
+  volume: 72
+  pages: 4–13
+  pdf: documents/Messerli_et_al_2003_Ciencias_72.pdf
+
+- authors: Viviroli D, Weingartner R
+  year: 2002
+  title: The significance of mountains as sources of the world's freshwater
+  journal: GAIA
+  volume: 11
+  issue: 3
+  pages: 182–186
+
+- authors: Weingartner R, Viviroli D
+  year: 2002
+  title: Die Alpen – das Wasserschloss Europas
+  journal: Sonderbeilage der Helvetas zur NZZ am Sonntag
+  volume: 08.09.2002
+  pages: 6
+
+- authors: Hauser F, Viviroli D, Weingartner R
+  year: 2002
+  title: Rezension Umweltatlas Hessen
+  journal: Hydrologie und Wasserbewirtschaftung
+  volume: 46
+  issue: 1
+  pages: 56-57

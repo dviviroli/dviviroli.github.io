@@ -1,0 +1,74 @@
+- authors: Staudinger M, Furrer R, Viviroli D
+  year: 2021
+  title: Hochwasserereignisse aus kontinuierlicher Langzeitsimulation zur Überprüfung der Sicherheit der Stauanlagen
+  report: Projektschlussbericht im Auftrag des Bundesamts für Energie (BFE)
+  institution: Geographisches Institut der Universität Zürich
+  openaccess: Y
+  pdf: https://pubdb.bfe.admin.ch/de/publication/download/10451
+  pdf_external: Y
+
+- authors: Staudinger M, Viviroli D, eds
+  year: 2020
+  title: Hydrometeorologische Grundlagen
+  report: Detailbericht A Projekt EXAR (Extremhochwasser an der Aare)
+  institution: Geographisches Institut der Universität Zürich
+  openaccess: Y
+  pdf: https://www.wsl.ch/de/projekte/exar-1/
+  pdf_external: Y
+
+- authors: Favre AC, Vannier O, Seibert J, Sikorska AE, Viviroli D, Meylan P
+  year: 2015
+  title: Statistical estimation of flood volumes
+  report: Phase I report for the Federal Office for the Environment (FOEN)
+  institution: Engineering school in Energy, Water and Environment, University of Grenoble; Department of Geography, University of Zürich; belop gmbh, Sarnen; AIC Ingénieurs Conseils SA, Lausanne
+
+- authors: Meyer R, Schädler B, Viviroli D, Weingartner R
+  year: 2011
+  title:  Klimaänderung und Niedrigwasser. Auswirkungen der Klimaänderung auf die Niedrigwasserverhältnisse im Schweizer Mittelland für 2021–2050 und 2070–2099
+  report: Schlussbericht CCHydro – Modul 4
+  institution: Geographisches Institut der Universität Bern
+  pdf: "https://www.bafu.admin.ch/dam/bafu/de/dokumente/hydrologie/externe-studien-berichte/klimaaenderung-und-niedrigwasser.pdf.download.pdf/Klima%C3%A4nderung%20und%20Niedrigwasser.pdf"
+  openaccess: Y
+  pdf_external: Y
+  links:
+  - url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
+    text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+    external: Y
+
+- authors: Köplin N, Schädler B, Viviroli D, Weingartner R
+  year: 2011
+  title: Klimaänderung und Wasserhaushalt in sensitiven Bilanzierungsgebieten
+  report: Schlussbericht CCHydro – Modul 3
+  institution: Geographisches Institut der Universität Bern
+  openaccess: Y
+  pdf: "https://www.bafu.admin.ch/dam/bafu/de/dokumente/hydrologie/externe-studien-berichte/klimaaenderung-und-wasserhaushalt-in-sensitiven-bilanzierungsgebieten.pdf.download.pdf/Klima%C3%A4nderung%20und%20Wasserhaushalt%20in%20sensitiven%20Bilanzierungsgebieten.pdf"
+  pdf_external: Y
+  links:
+  - url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
+    text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+    external: Y
+
+- authors: Schwanbeck J, Viviroli D, Schumann A, Weingartner R
+  year: 2008
+  title: Beurteilung und Einordnung von seltenen Hochwassern
+  report: Projektschlussbericht zu Untersuchungen im Rahmen der Ereignisanalyse Hochwasser 2005 im Auftrag des Bundesamtes für Umwelt (BAFU)
+  institution: Geographisches Institut der Universität Bern
+  links:
+  - url: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html"
+    text: See also synthesis report on analyses of 2005 flood in Switzerland
+    external: Y
+
+- authors: Schwanbeck J, Viviroli D, Weingartner R, Röser I, Trösch J
+  year: 2007
+  title: Prozessbasierte Abschätzung von Extremhochwassern im Einzugsgebiet der Sihl
+  report: Projektschlussbericht im Auftrag des Amtes für Abfall, Wasser, Energie und Luft des Kantons Zürich (AWEL)
+  institution: Geographisches Institut der Universität Bern; TK Consult AG, Zürich
+
+- authors: Baur M, Dettli R, Weingartner R, Viviroli D, Imhof P, Fässler M, Gerhardinger H
+  year: 2006
+  title: Potenzialanalyse Kleinwasserkraftwerke. Kraftwerke an Fliessgewässern
+  report: Schlussbericht zu einer Studie im Auftrag des Bundesamtes für Energie (BfE), Programm Kleinwasserkraft
+  institution:  econcept AG, Zürich; Geographisches Institut der Universität Bern
+  openaccess: Y
+  pdf: "https://www.zora.uzh.ch/id/eprint/112001/1/e_wwa_wkr_restwasser/bve_wwa_wkr_restwasser_dokumentat"
+  pdf_external: Y

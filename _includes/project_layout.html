@@ -1,0 +1,102 @@
+<tr valign="top" style="height:3em">
+	<td align="right" style="width:5.5em">
+		<b>{{ item.years }}</b></td>
+	<td style="width:0.75rem"></td>
+	<td>
+		{% if item.new == "Y" %}
+			<div class="tooltip">
+				<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+				<span class="tooltiptext">added recently</span>
+			</div>
+		{% endif %}
+		<b>{{ item.title }}</b><br>
+		<i>{{ item.subtitle }}</i>
+	</td>
+</tr>
+{% if item.where %}
+	<tr valign="top">
+		<td align="right">Realised at:</td>
+		<td/>
+		<td>{{ item.where | replace:'§',' · '}}</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+{% if item.collaboration %}
+	<tr valign="top">
+		<td align="right">Collaboration:</td>
+		<td/>
+		<td>
+			{% assign items = item.collaboration %}
+			{% for entry in item.collaboration %}
+				{{ entry.partner }}
+				{% if entry.partner != items.last.partner %}· {% endif %}
+			{% endfor %}
+		</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+{% if item.funding %}
+	<tr valign="top">
+		<td align="right">Funding:</td>
+		<td/>
+		<td>
+			{% assign items = item.funding %}
+			{% for entry in item.funding %}
+				{{ entry.sponsor }}
+				{% if entry.sponsor != items.last.sponsor %}· {% endif %}
+			{% endfor %}
+		</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+
+<!-- media coverage -->
+{% if item.mediacoverage %}
+	<tr valign="top">
+		<td align="right">In the media:</td>
+		<td/>
+		<td>
+			{% assign items = item.mediacoverage %}
+			{% for entry in item.mediacoverage %}
+		    <a target='_blank' rel="noopener noreferrer" href={{ entry.url }}>{{ entry.title }}</a>
+				{% if entry.external %}
+					<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+						<div class="tooltip">
+							<i class="fas fa-external-link-alt fa-xs"></i>
+							<span class="tooltiptext">External link</span>
+						</div>
+					</a>
+				{% endif %}
+				{% if entry.title != items.last.title %}· {% endif %}
+		  {% endfor %}
+		</td>
+	</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+
+{% if item.moreinfo %}
+		<tr valign="top">
+			<td align="right">Read more:</td>
+			<td/>
+				<td>
+				{% assign items = item.moreinfo %}
+				{% for entry in item.moreinfo %}
+					<a target="_blank" rel="noopener noreferrer" href={{ entry.url }}>
+					{{ entry.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+					</a>
+					{% if entry.external %}
+						<a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+							<div class="tooltip">
+								<i class="fas fa-external-link-alt fa-xs"></i>
+								<span class="tooltiptext">External link</span>
+							</div>
+						</a>
+					{% endif %}
+					{% if entry.text != items.last.text %}· {% endif %}
+			  {% endfor %}
+		  </td>
+		</tr>
+	<tr style="height:0.25em"><td/></tr>
+{% endif %}
+
+<tr style="height:2.0em"><td/></tr>

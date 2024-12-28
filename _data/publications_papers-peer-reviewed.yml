@@ -1,0 +1,581 @@
+
+- authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
+  year: 2024
+  title: Impact of different weather generator scenarios on extreme flood estimates in Switzerland
+  journal: Stochastic Environmental Research and Risk Assessment
+  volume: in press
+  # pages: ..................
+  # doi: ""
+  # pdf:
+  # pdf_external: Y
+  # openaccess: Y
+  new: Y
+
+- authors: Hanus S, Burek P, Smilovic M, Seibert J, Viviroli D
+  year: 2024
+  title: Seasonal variability in the global relevance of mountains to satisfy lowland water demand
+  journal: Environmental Research Letters
+  volume: 19
+  pages: 114078
+  doi: "10.1088/1748-9326/ad8507"
+  pdf: https://iopscience.iop.org/article/10.1088/1748-9326/ad8507/pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+
+- authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
+  year: 2024
+  title: "Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments"
+  journal: Geoscientific Model Development
+  volume: 17
+  pages: 5123–5144
+  doi: "10.5194/gmd-17-5123-2024"
+  pdf: https://gmd.copernicus.org/articles/17/5123/2024/gmd-17-5123-2024.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+
+- authors: Muñoz R, Vaghefi SA, Drenkhan F, Santos MJ, Viviroli D, Muccione V, Huggel C
+  year: 2024
+  title: Assessing water management strategies in data-scarce mountain regions under uncertain climate and socio-economic changes
+  journal: Water Resources Management
+  volume: 38
+  pages: 4083–410
+  doi: "10.1007/s11269-024-03853-5"
+  pdf: https://link.springer.com/content/pdf/10.1007/s11269-024-03853-5.pdf
+  pdf_external: Y
+  openaccess: Y
+
+- authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
+  year: 2023
+  title: "CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments in hydrologic Switzerland"
+  journal: Earth System Science Data
+  volume: 15
+  issue: 12
+  pages: 5755–5784
+  doi: "10.5194/essd-15-5755-2023"
+  pdf: https://essd.copernicus.org/articles/15/5755/2023/essd-15-5755-2023.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: N
+
+- authors: Viviroli D, Sikorska-Senoner AE, Evin G, Staudinger M, Kauzlaric M, Chardon J, Favre AC, Hingray B, Nicolet G, Raynaud D, Seibert J, Weingartner R, Whealton C
+  year: 2022
+  title: Comprehensive space-time hydrometeorological simulations for estimating very rare floods at multiple sites in a large river basin
+  journal: Natural Hazards and Earth System Sciences
+  volume: 22
+  issue: 9
+  pages: 2891–2920
+  doi: 10.5194/nhess-22-2891-2022
+  pdf: https://nhess.copernicus.org/articles/22/2891/2022/nhess-22-2891-2022.pdf
+  pdf_external: Y
+  openaccess: Y
+  notes:
+    - text: "Featured as highlight paper"
+      highlight: Y
+      url: https://www.natural-hazards-and-earth-system-sciences.net/articles_and_preprints/highlight_articles.html
+      external: Y
+
+- authors: Thornton J, Snethlage MA, Sayre R, Urbach DR, Viviroli D, Ehrlich D, Muccione V, Wester P, Insarov G, Adler C
+  year: 2022
+  title: "Human populations in the world’s mountains: spatio-temporal patterns and potential controls"
+  journal: PLOS ONE
+  volume: 17
+  issue: 7
+  pages: e0271466
+  doi: 10.1371/journal.pone.0271466
+  pdf: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0271466&type=printable
+  pdf_external: Y
+  openaccess: Y
+
+- authors: Kummu M, Heino M, Taka M, Varis O, Viviroli D
+  year: 2021
+  title: Climate change risks pushing one-third of global food production outside the safe climatic space
+  journal: One Earth
+  volume: 4
+  pages: 720–729
+  doi: 10.1016/j.oneear.2021.04.017
+  pdf: https://www.cell.com/one-earth/fulltext/S2590-3322(21)00236-0#
+  pdf_external: Y
+  openaccess: Y
+  mediacoverage:
+  - title: Press release (Aalto University, English)
+    url: https://www.aalto.fi/en/news/climate-change-threatens-one-third-of-global-food-production
+    external: Y
+  - title: press release (Aalto University, Finnish)
+    url: https://www.aalto.fi/fi/uutiset/tuore-tutkimus-ilmastonmuutos-uhkaa-jopa-kolmannesta-maailman-ruoantuotannosta
+    external: Y
+  - title: The Guardian
+    url: https://www.theguardian.com/environment/2021/may/14/third-of-global-food-production-at-risk-from-climate-crisis
+    external: Y
+  - title: Helsingin Sanomat
+    url: https://www.hs.fi/tiede/art-2000008622257.html?share=3eff822320b10de11ffce8c38ef403ee
+    external: Y
+  - title: MTV Uutiset
+    url: https://www.mtvuutiset.fi/artikkeli/ilmastonmuutos-uhkaa-kolmasosaa-maailman-ruoantuotannosta-suomi-saattaa-menettaa-havumetsat/8142182?mtv_ref=twb_uutiset_uusimmat#gs.0tc156
+    external: Y
+
+- authors: Muñoz R, Huggel C, Drenkhan F, Vis M, Viviroli D
+  year: 2021
+  title: Comparing model complexity for glacio-hydrological simulation in the data-scarce Peruvian Andes
+  journal: "Journal of Hydrology: Regional Studies"
+  volume: 37
+  pages: 100932
+  doi: 10.1016/j.ejrh.2021.100932
+  pdf: https://www.sciencedirect.com/science/article/pii/S2214581821001610/pdfft?md5=1a7bce2fb287cfdc7ffec9cc16f3a8ba&pid=1-s2.0-S2214581821001610-main.pdf
+  pdf_external: Y
+  openaccess: Y
+
+- authors: Shahgedanova M, Adler C, Gebrekirstos A, Grau HR, Huggel C, Marchant R, Pepin N, Vanacker V, Viviroli D, Vuille M
+  year: 2021
+  title: "Mountain observatories: status and prospects for enhancing and connecting a global community"
+  journal: Mountain Research and Development
+  volume: 41
+  issue: 2
+  pages: A1–A15
+  doi: 10.1659/MRD-JOURNAL-D-20-00054.1
+  pdf: https://bioone.org/journalArticle/Download?fullDOI=10.1659%2FMRD-JOURNAL-D-20-00054.1
+  pdf_text: Download pdf
+  pdf_external: Y
+  openaccess: Y
+
+- authors: Viviroli D, Kummu M, Meybeck M, Kallio M, Wada Y
+  year: 2020
+  title: "Increasing dependence of lowland populations on mountain water resources"
+  journal: Nature Sustainability
+  volume: 3
+  pages: 917–928
+  doi: 10.1038/s41893-020-0559-9
+  pdf: https://rdcu.be/b5r2H
+  pdf_text: Read online
+  pdf_external: Y
+  links:
+  - url: https://dx.doi.org/10.5061/dryad.ns1rn8pnt
+    text: Open access to resulting data
+    external: Y
+  notes:
+  - text: "Featured as research highlight in *Nature*"
+    highlight: Y
+    url: https://www.nature.com/articles/d41586-020-02028-7
+    external: Y
+  - text: "Highly cited paper (top 1% in field as to ESI)"
+    highlight: Y
+  mediacoverage:
+  - title: Press release (University of Zurich, German)
+    url: https://www.media.uzh.ch/de/medienmitteilungen/2020/Wasserressourcen-.html
+    external: Y
+  - title: press release (University of Zurich, English)
+    url: https://www.media.uzh.ch/en/Press-Releases/2020/Water-from-Mountains.html
+    external: Y
+  - title: press release (Aalto University, Finnish)
+    url: https://www.aalto.fi/fi/uutiset/riippuvuus-vuoristojen-vesivarannoista-kasvaa-vuoristot-toimivat-vesitorneina-jopa
+    external: Y
+
+- authors: Immerzeel WW, Lutz AF, Andrade M, Bahl A, Biemans H, Bolch T, Hyde S, Brumby S, Davies BJ, Elmore AC, Emmer A, Feng M, Fernández A, Haritashya U, Kargel, JS, Koppes M, Kraaijenbrink PDA, Kulkarni AV, Mayewski P, Nepal S, Pacheco P, Painter TH, Pellicciotti F, Rajaram H, Rupper S, Sinisalo A, Shrestha AB, Viviroli D, Wada Y, Xiao C, Yao T, Baillie JEM
+  year: 2020
+  title: "Importance and vulnerability of the world’s water towers"
+  journal: Nature
+  volume: 577
+  issue: 7790
+  pages: 364–369
+  doi: 10.1038/s41586-019-1822-y
+  pdf: https://rdcu.be/b5nLf
+  pdf_text: Read online
+  pdf_external: Y
+  notes:
+  - text: "Highly cited paper (top 1% in field as to ESI)"
+    highlight: Y
+
+- authors: Westerberg IK, Sikorska-Senoner AE, Viviroli D, Vis J, Seibert J
+  year: 2020
+  title: Hydrological model calibration with uncertain discharge data
+  journal: Hydrological Sciences Journal
+  # special_issue: "Special Issue: Hydrological Data: Opportunities And Barriers"
+  volume: 67
+  issue: 16
+  pages: 2441-2456
+  doi: 10.1080/02626667.2020.1735638
+  pdf: /documents/Westerberg_et_al_2020_HSJ.pdf
+
+- authors: Coppola AI, Seidel M, Ward ND, Viviroli D, Nascimento GS, Haghipour N, Revels BN, Abiven S, Jones MW, Richey JE, Eglinton TI, Dittmar T, Schmidt MWI
+  year: 2019
+  title: "Marked isotopic variability within and between the Amazon River and marine dissolved black carbon pools"
+  journal: Nature Communications
+  volume: 10
+  pages: 4018
+  doi: 10.1038/s41467-019-11543-9
+  pdf: https://www.nature.com/articles/s41467-019-11543-9.pdf
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Pool S, Viviroli D, Seibert J
+  year: 2019
+  title: "Value of a limited number of discharge observations for improving regionalisation: A large-sample study across the United States"
+  journal: Water Resources Research
+  volume: 55
+  issue: 1
+  pages: 363–377
+  doi: 10.1029/2018WR023855
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018WR023855
+  pdf_external: Y
+  openaccess: Y
+
+- authors: Brunner MI, Furrer R, Sikorska AE, Viviroli D, Seibert J, Favre AC
+  year: 2018
+  title: "Synthetic design hydrographs for ungauged catchments: A comparison of regionalisation methods"
+  journal: Stochastic Environmental Research and Risk Assessment
+  volume: 32
+  issue: 7
+  pages: 1993–2023
+  doi: 10.1007/s00477-018-1523-3
+  pdf: /documents/Brunner_et_al_2018_SERRA_32.pdf
+
+- authors: Brunner MI, Viviroli D, Furrer R, Seibert J, Favre AC
+  year: 2018
+  title: Identification of flood reactivity regions via the functional clustering of hydrographs
+  journal: Water Resources Research
+  volume: 54
+  issue: 3
+  pages: 1852–1867
+  doi: 10.1002/2017WR021650
+  pdf: /documents/Brunner_et_al_2018_WRR_54.pdf
+
+- authors: Sikorska AE, Viviroli D, Seibert J
+  year: 2018
+  title: Effective precipitation duration for runoff peaks based on catchment modelling
+  journal: Journal of Hydrology
+  volume: 556
+  pages: 510–522
+  doi: 10.1016/j.jhydrol.2017.11.028
+  pdf: /documents/Sikorska_et_al_2018_JoH_556.pdf
+
+- authors: Brunner MI, Viviroli D, Sikorska AE, Vannier O, Favre AC, Seibert J
+  year: 2017
+  title: Flood type specific construction of synthetic design hydrographs
+  journal: Water Resources Research
+  volume: 53
+  issue: 2
+  pages: 1390–1406
+  doi: 10.1002/2016WR019535
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016WR019535
+  pdf_external: Y
+  openaccess: Y
+
+- authors: Mankin JS, Viviroli D, Mekonnen MM, Hoekstra AY, Horton RM, Smerdon, JE, Diffenbaugh NS
+  year: 2017
+  title: Influence of internal variability on population exposure to hydroclimatic changes
+  journal: Environmental Research Letters
+  volume: 12
+  issue: 4
+  pages: 044007
+  doi: 10.1088/1748-9326/aa5efc
+  pdf: https://iopscience.iop.org/article/10.1088/1748-9326/aa5efc/pdf
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Pool S, Viviroli D, Seibert J
+  year: 2017
+  title: "Prediction of hydrographs and flow-duration curves in almost ungauged catchments: which runoff measurements are most informative for model calibration?"
+  journal: Journal of Hydrology
+  volume: 554
+  pages: 613–622
+  doi: 10.1016/j.jhydrol.2017.09.037
+  pdf: /documents/Pool_et_al_2017_JoH_554.pdf
+
+- authors: Kummu M, de Moel H, Salvucci G, Viviroli D, Ward PJ, Varis O
+  year: 2016
+  title: "Over the hills and further away from coast: global geospatial patterns of human and environment over the 20th–21st centuries"
+  journal: Environmental Research Letters
+  volume: 11
+  issue: 3
+  pages: 034010
+  doi: 10.1088/1748-9326/11/3/034010
+  pdf: http://iopscience.iop.org/article/10.1088/1748-9326/11/3/034010/pdf
+  openaccess: Y
+  pdf_external: Y
+  mediacoverage:
+  - title: Press release
+    url: https://www.aalto.fi/en/news/sea-level-rise-threatens-larger-number-of-people-than-earlier-estimated
+    external: Y
+
+- authors: Mankin JS, Viviroli D, Singh D, Hoekstra AY, Diffenbaugh NS
+  year: 2015
+  title: The potential for snow to supply human water demand in the present and future
+  journal: Environmental Research Letters
+  volume: 10
+  issue: 11
+  pages: 114016
+  doi: 10.1088/1748-9326/10/11/114016
+  pdf: http://iopscience.iop.org/article/10.1088/1748-9326/10/11/114016/pdf
+  openaccess: Y
+  pdf_external: Y
+  notes:
+  - text: "Featured as one of the journal's 25 'Highlights of 2015'"
+    highlight: Y
+    url: https://iopscience.iop.org/journal/1748-9326/page/Highlights-of-2015
+    external: Y
+  - text: "Featured as research highlight in *Nature*"
+    highlight: Y
+    url: https://www.nature.com/articles/527412d
+    external: Y
+  mediacoverage:
+  - title: Press release
+    url: https://www.earth.columbia.edu/articles/view/3265
+    external: Y
+  - title:  BBC Newshour
+    url: https://www.bbc.co.uk/sounds/play/p037kkp9
+    external: Y
+  - title: BBC Science in Action
+    url: https://www.bbc.co.uk/programmes/p037kkxl
+    external: Y
+  - title: National Geographic
+    url: https://www.nationalgeographic.com/science/article/151112-river-basins-water-drought-snowpack-snowfall-climate-change-science
+    external: Y
+  - title: Nature Climate Change
+    url: https://www.nature.com/articles/s41558-018-0330-7
+    external: Y
+  - title: New York Times
+    url: https://www.nytimes.com/2015/11/18/science/billions-of-people-depend-on-water-from-shrinking-snowpacks.html
+    external: Y
+
+- authors: Sikorska AE, Viviroli D, Seibert J
+  year: 2015
+  title: Flood type classification in mountainous catchments using crisp and fuzzy decision trees
+  journal: Water Resources Research
+  volume: 51
+  issue: 10
+  pages: 7959–7976
+  doi: 10.1002/2015WR017326
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2015WR017326
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Viviroli D, Seibert J
+  year: 2015
+  title: Can a regionalised model parameterisation be improved with a limited number of runoff measurements?
+  journal: Journal of Hydrology
+  volume: 529
+  issue: 1
+  pages: 49–61
+  doi: 10.1016/j.jhydrol.2015.07.009
+  pdf: /documents/Viviroli_and_Seibert_2015_JoH_529.pdf
+
+
+- authors: Köplin N, Schädler B, Viviroli D, Weingartner R
+  year: 2014
+  title: Seasonality and magnitude of floods in Switzerland under future climate change
+  journal: Hydrological Processes
+  volume: 28
+  issue: 4
+  pages: 2567–2578
+  doi: 10.1002/hyp.9757
+  pdf: /documents/Koeplin_et_al_2014_HP_28.pdf
+
+- authors: Köplin N, Schädler B, Viviroli D, Weingartner R
+  year: 2013
+  title: The importance of glacier and forest change in hydrological climate-impact studies
+  journal: Hydrology and Earth System Sciences
+  volume: 17
+  issue: 2
+  pages: 619–635
+  doi: 10.5194/hess-17-619-2013
+  pdf: https://www.hydrol-earth-syst-sci.net/17/619/2013/hess-17-619-2013.pdf
+  openaccess: Y
+  pdf_external: Y
+  notes:
+    - text: "Featured as highlight paper"
+      highlight: Y
+      url: https://www.hydrology-and-earth-system-sciences.net/articles_and_preprints/highlight_articles.html
+      external: Y
+
+- authors: Viviroli D, Schädler B, Schmocker-Fackel P, Weiler M, Seibert J
+  year: 2012
+  title: On the risk of obtaining misleading results by pooling streamflow data for trend analyses
+  journal: Water Resources Research
+  volume: 48
+  issue: 5
+  pages: W05601
+  doi: 10.1029/2011WR011690
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2011WR011690
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Köplin N, Schädler B, Viviroli D, Weingartner R
+  year: 2012
+  title: Relating climate change signals and physiographic catchment properties to clustered hydrological response types
+  journal: Hydrology and Earth System Sciences
+  volume: 16
+  issue: 7
+  pages: 2267–2283
+  doi: 10.5194/hess-16-2267-2012
+  pdf: https://www.hydrol-earth-syst-sci.net/16/2267/2012/hess-16-2267-2012.pdf
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Viviroli D, Archer DR, Buytaert W, Fowler HJ, Greenwood GB, Hamlet AF, Huang Y, Koboltschnig G, Litaor I, López-Moreno JI, Lorentz S, Schädler B, Schreier H, Schwaiger K, Vuille M, Woods R
+  year: 2011
+  title: "Climate change and mountain water resources: overview and recommendations for research, management and policy"
+  journal: Hydrology and Earth System Sciences
+  volume: 15
+  issue: 2
+  pages: 471–504
+  doi: 10.5194/hess-15-471-2011
+  pdf: https://www.hydrol-earth-syst-sci.net/15/471/2011/hess-15-471-2011.pdf
+  openaccess: Y
+  pdf_external: Y
+  notes:
+  - text: "Highly cited paper (top 1% in field as to ESI)"
+    highlight: Y
+
+- authors: Viviroli D, Weingartner R
+  year: 2011
+  title: Umfassende hochwasserhydrologische Beurteilung ungemessener mesoskaliger Einzugsgebiete im schweizerischen Rheineinzugsgebiet durch prozessorientierte Modellierung. [Comprehensive flood hydrological assessment of ungauged catchments in the Swiss part of the River Rhine basin by means of process-oriented modelling]
+  journal: Hydrologie und Wasserbewirtschaftung
+  volume: 55
+  issue: 5
+  pages: 258–272
+  pdf: /documents/Viviroli_und_Weingartner_2011_HyWa_55.pdf
+
+- authors: Meyer R, Schädler B, Viviroli D, Weingartner R
+  year: 2011
+  title: Die Rolle des Basisabflusses zur Abschätzung von Auswirkungen der Klimaänderung auf das Niedrigwasser im Schweizer Mittelland – Bestimmung, Analyse und Beurteilung. [The role of base flow to estimate climate change impacts on low flow in the Swiss Midlands – determination, analysis and assessment]
+  journal: Hydrologie und Wasserbewirtschaftung
+  volume: 55
+  issue: 5
+  pages: 244–257
+  pdf: /documents/Meyer_et_al_2011_HyWa_55.pdf
+
+- authors: Wada Y, van Beek LPH, Viviroli D, Dürr HH, Weingartner R, Bierkens MFP
+  year: 2011
+  title: "Global monthly water stress: 2. Water demand and severity of water stress"
+  journal: Water Resources Research
+  volume: 47
+  issue: 7
+  pages: W07518
+  doi: 10.1029/2010WR009792
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2010WR009792
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Viviroli D, Mittelbach H, Gurtz J, Weingartner R
+  year: 2009
+  title: "Continuous simulation for flood estimation in ungauged mesoscale catchments of Switzerland – Part II: Parameter regionalisation and flood estimation results"
+  journal: Journal of Hydrology
+  volume: 377
+  issue: 1–2
+  pages: 208–225
+  doi: 10.1016/j.jhydrol.2009.08.022
+  pdf: /documents/Viviroli_et_al_2009_JoH_377b.pdf
+
+- authors: Viviroli D, Zappa M, Schwanbeck J, Gurtz J, Weingartner R
+  year: 2009
+  title: "Continuous simulation for flood estimation in ungauged mesoscale catchments of Switzerland – Part I: Modelling framework and calibration results"
+  journal: Journal of Hydrology
+  volume: 377
+  issue: 1–2
+  pages: 191–207
+  doi: 10.1016/j.jhydrol.2009.08.023
+  pdf: /documents/Viviroli_et_al_2009_JoH_377a.pdf
+
+- authors: Viviroli D, Zappa M, Gurtz J, Weingartner R
+  year: 2009
+  title: An introduction to the hydrological modelling system PREVAH and its pre- and post-processing tools
+  journal: Environmental Modelling & Software
+  volume: 24
+  issue: 10
+  pages: 1209–1222
+  doi: 10.1016/j.envsoft.2009.04.001
+  pdf: /documents/Viviroli_et_al_2009_EMS_24.pdf
+  notes:
+  - text: "Highly cited paper (top 1% in field as to ESI)"
+    highlight: Y
+
+- authors: Viviroli D, Dürr HH, Messerli B, Meybeck M, Weingartner R
+  year: 2007
+  title: "Mountains of the world – water towers for humanity: Typology, mapping and global significance"
+  journal: Water Resources Research
+  volume: 43
+  issue: 7
+  pages: W07447
+  doi: 10.1029/2006WR005653
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2006WR005653
+  openaccess: Y
+  pdf_external: Y
+  # mediacoverage:
+  # - title: Der Standard
+  #   url: https://www.derstandard.at/story/3302946/gebirge-verlieren-wasserturm-funktion
+  #   external: Y
+  # - title: Deutschlandfunk (1)
+  #   url: https://www.deutschlandfunk.de/wenn-das-wasser-nur-noch-troepfelt.676.de.html?dram:article_id=25344
+  #   external: Y
+  # - title: Deutschlandfunk (2)
+  #   url: https://www.deutschlandfunk.de/tauwetter-ueber-den-gipfeln-der-welt.740.de.html?dram:article_id=111708
+  #   external: Y
+  # - title: Reuters
+  #   url: https://www.reuters.com/article/us-water-idUSL1457333520080414
+  #   external: Y
+
+- authors: Weingartner R, Viviroli D, Schädler B
+  year: 2007
+  title: "Water resources in mountain regions: a methodological approach to assess the water balance in a highland-lowland-system"
+  journal: Hydrological Processes
+  volume: 21
+  issue: 5
+  pages: 578–585
+  doi: 10.1002/hyp.6268
+  pdf: /documents/Weingartner_et_al_2007_HP_21.pdf
+
+- authors: Notter B, MacMillan L, Viviroli D, Weingartner R, Liniger HP
+  year: 2007
+  title: Impacts of environmental change on water resources in the Mt. Kenya region
+  journal: Journal of Hydrology
+  volume: 343
+  issue: 3–4
+  pages: 266–278
+  doi: 10.1016/j.jhydrol.2007.06.022
+  pdf: /documents/Notter_et_al_2007_JoH_343.pdf
+
+- authors: Viviroli D, Weingartner R
+  year: 2004
+  title: The hydrological significance of mountains – from regional to global scale
+  journal: Hydrology and Earth System Sciences
+  volume: 8
+  issue: 6
+  pages: 1016–1029
+  doi: 10.5194/hess-8-1017-2004
+  pdf: http://www.hydrol-earth-syst-sci.net/8/1017/2004/hess-8-1017-2004.pdf
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Messerli B, Viviroli D, Weingartner R
+  year: 2004
+  title: "Mountains of the world: Vulnerable water towers for the 21st century. Special Issue: Royal Colloquium on Mountain Areas as a Global Resource, Abisko 2003"
+  journal: AMBIO
+  volume: S13
+  pages: 29–34
+  doi: 10.1007/0044-7447-33.sp13.29
+  pdf: /documents/Messerli_et_al_2004_AMBIO_SR_13.pdf
+
+- authors: Viviroli D, Weingartner R, Messerli B
+  year: 2003
+  title: Assessing the hydrological significance of the world's mountains
+  journal: Mountain Research and Development
+  volume: 23
+  issue: 1
+  pages: 32–40
+  doi: 10.1659/0276-4741(2003)023[0032:ATHSOT]2.0.CO;2
+  pdf: https://bioone.org/journalArticle/Download?fullDOI=10.1659%2F0276-4741(2003)023%5B0032%3AATHSOT%5D2.0.CO%3B2
+  openaccess: Y
+  pdf_external: Y
+
+- authors: Messerli B, Viviroli D, Weingartner R
+  year: 2001
+  title: "Comments to 'A new typology for mountains and other relief classes: An application to global continental water resources and population distribution'"
+  journal: Mountain Research and Development
+  volume: 21
+  issue: 3
+  pages: 307
+  doi: 10.1659/0276-4741(2001)021[0307:C]2.0.CO;2
+  pdf: https://bioone.org/journalArticle/Download?fullDOI=10.1659%2F0276-4741(2001)021%5B0307%3AC%5D2.0.CO%3B2
+  openaccess: Y
+  pdf_external: Y

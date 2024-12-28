@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<!--
+	Daniel Viviroli, https://github.com/dviviroli
+	Page uses elements from	«Spatial» by TEMPLATED
+-->
+
+<html>
+	<head>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129681391-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-129681391-1');
+		</script>
+
+		<title>Homepage of Daniel Viviroli</title>
+		<meta name="description" content="Daniel Viviroli's research on water in mountain areas, and selected photographs; mountain hydrology, water resources, natural hazards, flood estimation, hydrological modelling, regionalisation, climate change, global change, water towers" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/typography.css" /> <!-- indeed needs to be ".css", not ".scss", as Jekyll makes conversion from SCSS to CSS! -->
+
+		<link rel="shortcut icon" type="image/png" href="{{ "/assets/favicon.png"  | absolute_url }}">
+
+	</head>
+
+	<body class="landing">
+
+		<!-- Header -->
+		{% include header.html %}
+
+		<!-- Banner -->
+		<section id="banner">
+			{{ content }}
+			<section id="section_scrolldown" class="scrolldown">
+		  <a href="#fo"><span></span></a>
+			</section>
+		</section>
+
+		<!-- Footer -->
+		{% include footer.html %}
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/scroll.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
