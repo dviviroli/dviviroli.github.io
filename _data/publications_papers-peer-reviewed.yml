@@ -1,6 +1,6 @@
 
 - authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
-  year: 2024
+  year: 2025
   title: Impact of different weather generator scenarios on extreme flood estimates in Switzerland
   journal: Stochastic Environmental Research and Risk Assessment
   volume: in press
@@ -9,6 +9,18 @@
   # pdf:
   # pdf_external: Y
   # openaccess: Y
+  new: Y
+
+- authors: Staudinger M, Kauzlaric M, Mas A, Evin G, Hingray B, Viviroli D
+  year: 2025
+  title: The role of antecedent conditions in translating precipitation events into extreme floods at the catchment scale and in a large-basin context
+  journal: Natural Hazards and Earth System Sciences
+  volume: 25
+  pages:  247–265
+  doi: 10.5194/nhess-25-247-2025
+  pdf: https://nhess.copernicus.org/articles/25/247/2025/nhess-25-247-2025.pdf
+  pdf_external: Y
+  openaccess: Y
   new: Y
 
 - authors: Hanus S, Burek P, Smilovic M, Seibert J, Viviroli D
