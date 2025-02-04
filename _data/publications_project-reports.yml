@@ -1,3 +1,16 @@
+- authors: Meng A, Bänziger R, Barben M, Kipfer A, Scherrer S, Viviroli D, Zischg A
+  year: 2024
+  title: "Vorgehenskonzept und Pflichtenheft für die Realisierung von Werkzeugen zur Hochwasserabschätzung"
+  report: Bericht der Arbeitsgruppe Hydrologie, Phase 2
+  institution: Kommission für Hochwasserschutz, Wasserbau und Gewässerpflege (KOHS)
+  links:
+  - url: "https://www.swv.ch/detail/vorgehenskonzept-pflichtenheft-fuer-die-realisierung-von-werkzeugen-zur-hochwasserabschaetzung"
+    text: See also news item at Schweizerischer Wasserwirtschaftsverband (SWV)
+    external: Y
+  openaccess: Y
+  pdf: https://www.swv.ch/fileadmin/user_upload/site/PDF/SWV_intern/KOHS_Hydrologie_Vorgehenskonzept-Pflichtenheft_241217.pdf
+  new: Y
+
 - authors: Staudinger M, Furrer R, Viviroli D
   year: 2021
   title: Hochwasserereignisse aus kontinuierlicher Langzeitsimulation zur Überprüfung der Sicherheit der Stauanlagen
