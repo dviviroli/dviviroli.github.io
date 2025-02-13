@@ -1,4 +1,12 @@
 
+# - authors: Heikonen S, Heino M, Jalava M, Siebert S, Viviroli D, Kummu M
+#   year: 2025
+#   title: "Data from: Climate change threatens crop diversity at low latitudes"
+#   repository: Zenodo Digital Repository
+#   doi: 10.5281/zenodo.14801623
+#   openaccess: Y
+#   new: Y
+
 - authors: Hanus S, Burek P, Smilovic M, Seibert J, Viviroli D
   year: 2024
   title: Seasonal variability in the global relevance of mountains to satisfy lowland water demand
@@ -13,7 +21,6 @@
   repository: Zenodo Digital Repository
   doi: 10.5281/zenodo.10046822
   openaccess: Y
-  new: Y
 
 - authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
   year: 2023
@@ -21,7 +28,6 @@
   repository: Zenodo Digital Repository
   doi: 10.5281/zenodo.10354485
   openaccess: Y
-  new: Y
 
 - authors: Thornton J, Snethlage MA, Sayre R, Urbach DR, Viviroli D, Ehrlich D, Muccione V, Wester P, Insarov G, Adler C
   year: 2022
