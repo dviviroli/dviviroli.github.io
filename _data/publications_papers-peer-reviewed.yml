@@ -1,14 +1,25 @@
 
-- authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
+- authors: Heikonen S, Heino M, Jalava M, Siebert S, Viviroli D, Kummu M
   year: 2025
-  title: Impact of different weather generator scenarios on extreme flood estimates in Switzerland
-  journal: Stochastic Environmental Research and Risk Assessment
+  title: Climate change threatens crop diversity at low latitudes
+  journal: Nature food
   volume: in press
   # pages: ..................
   # doi: ""
   # pdf:
   # pdf_external: Y
   # openaccess: Y
+  new: Y
+
+- authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
+  year: 2025
+  title: Impact of different weather generator scenarios on extreme flood estimates in Switzerland
+  journal: Stochastic Environmental Research and Risk Assessment
+  volume: published online
+  doi: 10.1007/s00477-024-02843-8
+  pdf: https://link.springer.com/content/pdf/10.1007/s00477-024-02843-8.pdf
+  pdf_external: Y
+  openaccess: Y
   new: Y
 
 - authors: Staudinger M, Kauzlaric M, Mas A, Evin G, Hingray B, Viviroli D
