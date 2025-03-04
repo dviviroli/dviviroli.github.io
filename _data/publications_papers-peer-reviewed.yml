@@ -1,15 +1,15 @@
 
-# - authors: Heikonen S, Heino M, Jalava M, Siebert S, Viviroli D, Kummu M
-#   year: 2025
-#   title: Climate change threatens crop diversity at low latitudes
-#   journal: Nature food
-#   volume: in press
-#   # pages: ..................
-#   # doi: ""
-#   # pdf:
-#   # pdf_external: Y
-#   # openaccess: Y
-#   new: Y
+- authors: Heikonen S, Heino M, Jalava M, Siebert S, Viviroli D, Kummu M
+  year: 2025
+  title: Climate change threatens crop diversity at low latitudes
+  journal: Nature food
+  volume: published online
+  # pages: ..................
+  doi: https://www.nature.com/articles/s43016-025-01135-w
+  pdf: https://www.nature.com/articles/s43016-025-01135-w.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
 
 - authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
   year: 2025
