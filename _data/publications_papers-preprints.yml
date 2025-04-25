@@ -1,0 +1,33 @@
+# - authors: Viviroli D, Jury M, Staudinger M, Kauzlaric M, Truhez H, Maraun D
+  # year: 2025
+  # title: "Leveraging reforecasts for flood estimation with long continuous simulation: a proof-of-concept study"
+  # archive: EGUsphere [preprint]
+  # date: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  # doi: "https://doi.org/10.22541/essoar.174559144.48429241/v1"
+  # pdf: https://egusphere.copernicus.org/preprints/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  # pdf_external: Y
+  # openaccess: Y
+  # new: Y
+
+- authors: Hanus S, Burek P, Smilovic M, Seibert J, Wada Y, Viviroli D
+  year: 2025
+  title: "Dependence of Lowland Water Use on Mountain Runoff Globally: Interannual Variability and Future Changes at Seasonal Scale"
+  archive: ESS Open Archive [preprint]
+  date: 25.04.2025
+  doi: "https://doi.org/10.22541/essoar.174559144.48429241/v1"
+  pdf: https://essopenarchive.org/doi/pdf/10.22541/essoar.174559144.48429241/v1
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+
+# ******* EXAMPLE FOR FORMATTING *******
+# - authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
+#   year: 2024
+#   title: "Coupling a large-scale glacier and hydrological model (OGGM v1.5.3 and CWatM V1.08) – Towards an improved representation of mountain water resources in global assessments"
+#   archive: EGUsphere [preprint]
+#   date: 22.01.2024
+#   doi: "10.5194/egusphere-2023-2562"
+#   pdf: https://egusphere.copernicus.org/preprints/2024/egusphere-2023-2562/egusphere-2023-2562.pdf
+#   pdf_external: Y
+#   openaccess: Y
+#   new: Y
