@@ -11,6 +11,19 @@
   pdf: https://www.swv.ch/fileadmin/user_upload/site/PDF/SWV_intern/KOHS_Hydrologie_Vorgehenskonzept-Pflichtenheft_241217.pdf
   new: Y
 
+- authors: Schwab S, Brughelli M, Pfäffli M, Viviroli D, Lang M, Hunziker R
+  year: 2023
+  title: Gefahren- und Schadenausmassanalyse entlang der Aare unter einem sich verändernden Klima
+  report: Projektschlussbericht zu Untersuchungen im Rahmen des Pilotprogramms zur Anpassung an den Klimawandel (Phase 2) im Auftrag des Bundesamtes für Umwelt (BAFU)
+  institution: GEOTEST AG; Hunziker, Zarn und Partner AG; Universität Zürich
+  openaccess: Y
+  pdf: https://www.nccs.admin.ch/dam/nccs/de/dokumente/website/massnahmen/projekte/1918009_BE_Schlussbericht_BAFU_C02_Aare_V12_SCHLUSSVERSION.pdf.download.pdf/1918009_BE_Schlussbericht_BAFU_C02_Aare_V12_SCHLUSSVERSION.pdf
+  pdf_external: Y
+  links:
+  - url: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
+    text: See also summary for the second phase of the pilot programme on climate change at the National Centre for Climate Services NCCS
+    external: Y
+
 - authors: Staudinger M, Furrer R, Viviroli D
   year: 2021
   title: Hochwasserereignisse aus kontinuierlicher Langzeitsimulation zur Überprüfung der Sicherheit der Stauanlagen
