@@ -1,16 +1,18 @@
-# - authors: Pachoud AJ, Viviroli D, Frauchiger R, Brocard E, Côté M
-  # year: 2025
-  # title: New approach to estimate extreme floods for Swiss dams by means of continuous hydrometeorological simulations
-  # editors: .............................................
-  # booktitle: ..............................
-  # publisher: ------------------------
-  # place: Chengdu, CN
+- authors: Pachoud AJ, Viviroli D, Frauchiger R, Brocard E, Côté M
+  year: 2025
+  title: New approach to estimate extreme floods for Swiss dams by means of continuous hydrometeorological simulations
+  editors: International Commission On Large Dams
+  booktitle: "Twenty-Eighth International Congreess on Large Dams, Chengdu, CN, 16 May – 23 May 2025"
+  publisher: "CRC Press/Balkema"
+  place: Leiden, NL
+  pages: 58–79
+  new: Y
 
 - authors: Meyer P, Viviroli D, Melian CJ
   year: 2016
   title: Valuating the impact of multiple hydropower plants on biodiversity in river dendritic networks
   editors: Sauvage S, Sánchez-Pérez JM, Rizzoli AE
-  booktitle: Proceedings of the 8th International Congress on Environmental Modelling and Software (iEMSs), 10–14 July 2016, Toulouse, F
+  booktitle: Proceedings of the 8th International Congress on Environmental Modelling and Software (iEMSs), Toulouse, F, 10 – 14 July 2016
   publisher: International Environmental Modelling and Software Society (iEMSs)
   place: Manno
   isbn: 978-889035745-9
@@ -41,7 +43,7 @@
   year: 2009
   title: Mountains of the World – Water Towers for the 21st Century
   editors: Garrido A, Dinar A, eds
-  booktitle: Managing Water Resources in a Time of Global Change. Contributions from the Rosenberg International Forum on Water Policy, Banff, CDN, 06–11 September 2007
+  booktitle: Managing Water Resources in a Time of Global Change. Contributions from the Rosenberg International Forum on Water Policy, Banff, CDN, 06 – 11 September 2007
   publisher: Routeledge
   place: New York, NY, US
   isbn: 978-0-4157-7778-0
@@ -51,7 +53,7 @@
   year: 2009
   title: Mountain waters in a changing world
   editors:  Jandl R, Borsdorf A, Van Miegroet H, Lackner R, Psenner R, eds
-  booktitle: Global Change and Sustainable Development in Mountain Regions, Proceedings of a COST strategic workshop in Innsbruck, 07–09 April 2008
+  booktitle: Global Change and Sustainable Development in Mountain Regions, Proceedings of a COST strategic workshop in Innsbruck, AUT, 07 – 09 April 2008
   series:  Alpine Space – Man & Environment
   volume: 7
   publisher: Innsbruck University Press
@@ -63,7 +65,7 @@
   year: 2008
   title: Water towers – A global view on the hydrological importance of mountains
   editors: Wiegandt E, ed
-  booktitle: "Mountains: Sources of Water, Sources of Knowledge. International workshop organised by the Institut Universitaire Kurt Bösch (IUKB) to celebrate UN’s international year of mountains, Sion, CH, 08–10 October 2002"
+  booktitle: "Mountains: Sources of Water, Sources of Knowledge. International workshop organised by the Institut Universitaire Kurt Bösch (IUKB) to celebrate UN’s international year of mountains, Sion, CH, 08 – 10 October 2002"
   series: Advances in Global Change Research
   volume: 31
   publisher: Springer
@@ -98,7 +100,7 @@
   year: 2006
   title: "Mountains as \"water towers\" for humanity: state of knowledge and significance in a changing world"
   editors: Price MF, ed
-  booktitle: Global Change in Mountain Regions. Proceedings from open science conference jointly convened by the Centre for Mountain Studies (CMS) and the Mountain Research Initiative (MRI) in Perth, Scotland, UK, 02–06 October 2005
+  booktitle: Global Change in Mountain Regions. Proceedings from open science conference jointly convened by the Centre for Mountain Studies (CMS) and the Mountain Research Initiative (MRI) in Perth, Scotland, UK, 02 – 06 October 2005
   publisher: Sapiens Publishing
   place: Duncow, UK
   isbn: 0-9552282-2-0
@@ -108,7 +110,7 @@
   year: 2005
   title: Die hydrologische Bedeutung der Gebirge für ihre Vorländer
   editors: Eidam U, Schröder H, Winter S, eds
-  booktitle:  Hochgebirge und ihr Umland, Jahrestagung des Arbeitskreises Hochgebirge an der Humboldt-Universität zu Berlin, 28.-30. Januar 2005
+  booktitle:  Hochgebirge und ihr Umland, Jahrestagung des Arbeitskreises Hochgebirge an der Humboldt-Universität zu Berlin, 28.–30. Januar 2005
   series: Berliner Geographische Arbeiten
   volume: 100
   publisher: Geographisches Institut der Humboldt-Universität zu Berlin
@@ -132,7 +134,7 @@
   year: 2004
   title: "Mountains: essential water towers for a thirsty world"
   editors: Webb B, Acreman M, Maksimovic C, Smithers H, Kirby C, eds
-  booktitle: "Hydrology: Science & Practice for the 21st century, International Conference at Imperial College for Science and Technology, London, UK, 12–16 July 2004"
+  booktitle: "Hydrology: Science & Practice for the 21st century, International Conference at Imperial College for Science and Technology, London, UK, 12 – 16 July 2004"
   publisher: British Hydrological Society
   place: London, UK
   isbn: 978-1-90374111-5
