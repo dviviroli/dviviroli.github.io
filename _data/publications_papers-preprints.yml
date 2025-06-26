@@ -1,13 +1,13 @@
-# - authors: Viviroli D, Jury M, Staudinger M, Kauzlaric M, Truhez H, Maraun D
-  # year: 2025
-  # title: "Leveraging reforecasts for flood estimation with long continuous simulation: a proof-of-concept study"
-  # archive: EGUsphere [preprint]
-  # date: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  # doi: "https://doi.org/10.22541/essoar.174559144.48429241/v1"
-  # pdf: https://egusphere.copernicus.org/preprints/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-  # pdf_external: Y
-  # openaccess: Y
-  # new: Y
+- authors: Viviroli D, Jury M, Staudinger M, Kauzlaric M, Truhez H, Maraun D
+  year: 2025
+  title: "Leveraging reforecasts for flood estimation with long continuous simulation: a proof-of-concept study"
+  archive: EGUsphere [preprint]
+  date: 26.06.2025
+  doi: 10.5194/egusphere-2025-1920
+  pdf: https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1920/egusphere-2025-1920.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
 
 - authors: Hanus S, Burek P, Smilovic M, Seibert J, Wada Y, Viviroli D
   year: 2025
