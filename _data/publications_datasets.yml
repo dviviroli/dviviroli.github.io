@@ -1,4 +1,12 @@
 
+- authors: Hanus S, Burek P, Smilovic M, Seibert J, Wada Y, Viviroli D
+  year: 2025
+  title: "Dependence of Lowland Water Use on Mountain Runoff Globally: Interannual Variability and Future Changes at Seasonal Scale"
+  repository: Zenodo Digital Repository
+  doi: 10.5281/zenodo.15126029
+  openaccess: Y
+  new: Y
+
 - authors: Heikonen S, Heino M, Jalava M, Siebert S, Viviroli D, Kummu M
   year: 2025
   title: "Data from: Climate change threatens crop diversity at low latitudes"
@@ -13,7 +21,6 @@
   repository: Zenodo Digital Repository
   doi: 10.5281/zenodo.13354811
   openaccess: Y
-  new: Y
 
 - authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
   year: 2023
