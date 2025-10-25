@@ -3,11 +3,11 @@
   year: 2025
   title: "Dependence of Lowland Water Use on Mountain Runoff Globally: Interannual Variability and Future Changes at Seasonal Scale"
   journal: Earth's Future
-  doi: 10.1029/2025EF006407
-  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025EF006407
   volume: 13
   issue: 10
   pages: e2025EF006407
+  doi: 10.1029/2025EF006407
+  pdf: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025EF006407
   pdf_external: Y
   openaccess: Y
   new: Y
@@ -28,7 +28,8 @@
   year: 2025
   title: Impact of different weather generator scenarios on extreme flood estimates in Switzerland
   journal: Stochastic Environmental Research and Risk Assessment
-  volume: published online
+  volume: 39
+  pages: 847–866
   doi: 10.1007/s00477-024-02843-8
   pdf: https://link.springer.com/content/pdf/10.1007/s00477-024-02843-8.pdf
   pdf_external: Y
@@ -57,7 +58,6 @@
   pdf: https://iopscience.iop.org/article/10.1088/1748-9326/ad8507/pdf
   pdf_external: Y
   openaccess: Y
-  new: Y
 
 - authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
   year: 2024
@@ -69,7 +69,6 @@
   pdf: https://gmd.copernicus.org/articles/17/5123/2024/gmd-17-5123-2024.pdf
   pdf_external: Y
   openaccess: Y
-  new: Y
 
 - authors: Muñoz R, Vaghefi SA, Drenkhan F, Santos MJ, Viviroli D, Muccione V, Huggel C
   year: 2024
