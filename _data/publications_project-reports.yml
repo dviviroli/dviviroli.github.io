@@ -1,3 +1,16 @@
+- authors: Viviroli D, Staudinger M, Kauzlaric M
+  year: 2025
+  title: "Extreme Floods in Switzerland. Hydrological scenarios for large catchments"
+  report: Commissioned by the Federal Office for the Environment (FOEN) and the Swiss Federal Office of Energy (SFOE)
+  institution: Department of Geography, University of Zurich and Institute of Geography, University of Bern
+  links:
+  - url: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/grossprojekte-hochwasserschutz/projekt-extremhochwasser-schweiz-exch.html"
+    text: Project site at Federal Office for Environment (FOEN)
+    external: Y
+  openaccess: Y
+  pdf: https://www.bafu.admin.ch/dam/bafu/en/dokumente/wasser/externe-studien-berichte/extreme-floods-in-switzerland.pdf.download.pdf/Extreme-Floods-in-Switzerland.pdf
+  new: Y
+
 - authors: Meng A, Bänziger R, Barben M, Kipfer A, Scherrer S, Viviroli D, Zischg A
   year: 2024
   title: "Vorgehenskonzept und Pflichtenheft für die Realisierung von Werkzeugen zur Hochwasserabschätzung"
@@ -5,11 +18,11 @@
   institution: Kommission für Hochwasserschutz, Wasserbau und Gewässerpflege (KOHS)
   links:
   - url: "https://www.swv.ch/detail/vorgehenskonzept-pflichtenheft-fuer-die-realisierung-von-werkzeugen-zur-hochwasserabschaetzung"
-    text: See also news item at Schweizerischer Wasserwirtschaftsverband (SWV)
+    text: News item at Schweizerischer Wasserwirtschaftsverband (SWV)
     external: Y
   openaccess: Y
   pdf: https://www.swv.ch/fileadmin/user_upload/site/PDF/SWV_intern/KOHS_Hydrologie_Vorgehenskonzept-Pflichtenheft_241217.pdf
-  new: Y
+  new: N
 
 - authors: Schwab S, Brughelli M, Pfäffli M, Viviroli D, Lang M, Hunziker R
   year: 2023
@@ -21,7 +34,7 @@
   pdf_external: Y
   links:
   - url: "https://www.nccs.admin.ch/nccs/de/home/massnahmen/pak/projektephase2/pilotprojekte-zur-anpassung-an-den-klimawandel--cluster--managem/c-02-hochwasserabschaetzung-entlang-der-aare.html"
-    text: See also summary for the second phase of the pilot programme on climate change at the National Centre for Climate Services NCCS
+    text: Summary for the second phase of the pilot programme on climate change at the National Centre for Climate Services NCCS
     external: Y
 
 - authors: Staudinger M, Furrer R, Viviroli D
@@ -58,7 +71,7 @@
   pdf_external: Y
   links:
   - url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
-    text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+    text: Synthesis report on climate change and hydrology in Switzerland (CCHydro)
     external: Y
 
 - authors: Köplin N, Schädler B, Viviroli D, Weingartner R
@@ -71,7 +84,7 @@
   pdf_external: Y
   links:
   - url: "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/publikationen-studien/publikationen-wasser/auswirkungen-klimaaenderung-wasserressourcen-gewaesser.html"
-    text: See also synthesis report on climate change and hydrology in Switzerland (CCHydro)
+    text: Synthesis report on climate change and hydrology in Switzerland (CCHydro)
     external: Y
 
 - authors: Schwanbeck J, Viviroli D, Schumann A, Weingartner R
@@ -81,7 +94,7 @@
   institution: Geographisches Institut der Universität Bern
   links:
   - url: "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/publikationen-studien/publikationen/ereignisanalyse-hochwasser-2005-analyse-von-prozessen-massnahmen-und-gefahrengrundlagen.html"
-    text: See also synthesis report on analyses of 2005 flood in Switzerland
+    text: Synthesis report on analyses of 2005 flood in Switzerland
     external: Y
 
 - authors: Schwanbeck J, Viviroli D, Weingartner R, Röser I, Trösch J
