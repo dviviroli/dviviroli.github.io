@@ -25,74 +25,53 @@ title: About me
     <br>
     <br>
     Every now and then I like to take pictures, you will find a few of them around here as well.
+    <br>
+    <br>
+    <br>
+    <br>
+    {% if shownewsitems == true %}
+    <h4>Selected news items</h4>
+    <a class="anchor" id="JP"></a>
+    <div class="newsitems">
+      {% for item in site.data.publications_newsitems %}
+        <div class="newsitem">
+          {% if item.new == "Y" %}
+            <div class="tooltip">
+              <font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
+              <span class="tooltiptext">added recently</span>
+            </div>
+          {% endif %}
+          <b>{{ item.authors }}, {{ item.date | date: "%Y" }}.</b>
+          {% capture lastchar %}{{ item.title | slice:-1 }}{% endcapture %}
+          {% if lastchar == "?" or lastchar == "!" %}
+            {{ item.title }}
+          {% else %}
+            {{ item.title }}.
+          {% endif %}
+          <i>{{ item.journal }}</i>,
+          {% if item.volume %}
+            {{ item.volume }}.
+          {% elsif item.date %}
+            {{ item.date }}.
+          {% endif %}
+          {% if showdimensions and item.doi %}
+            <a class="__dimensions_badge_embed__" data-doi="{{ item.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
+          {% endif %}
+          {% if showaltmetric and item.doi %}
+            <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a>
+          {% endif %}
+          {% if showplumx and item.doi %}
+            <a href="https://plu.mx/plum/a/?doi={{ item.doi }}" class="plumx-plum-print-popup"></a>
+          {% endif %}
+          {% include publications_pdf_and_notes.html %}
+        </div>
+        <p></p>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </div>
 
-
-{% if shownewsitems == true %}
-<h3>Related news items</h3>
-<a class="anchor" id="JP"></a>
-<ol reversed="">
-	{% for item in site.data.publications_newsitems %}
-			<li>
-				{% if item.new == "Y" %}
-					<div class="tooltip">
-						<font color="3B6FEF"><i class="fas fa-circle fa-sm"></i></font>
-						<span class="tooltiptext">added recently</span>
-					</div>
-				{% endif %}
-				<b>{{ item.authors | replace:'Viviroli D','<u>Viviroli D</u>' }},
-				{{ item.date }}.</b>
-				{% capture lastchar %}{{ item.title | slice:-1 }}{% endcapture %}
-				{% if lastchar == "?" or lastchar == "!" %}
-					{{ item.title }}
-				{% else %}
-					{{ item.title }}.
-				{% endif %}
-				<i>{{ item.journal }}</i>,
-				{% if item.volume == "in press" or item.volume == "accepted" or item.volume == "published online" %}
-					{% if item.doi %}
-						{{ item.volume }},
-						<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
-					{% else %}
-						{{ item.volume }}.
-					{% endif %}
-				{% elsif item.special_issue %}
-					{{ item.special_issue }},
-					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
-				{% elsif item.issue and item.pages and item.doi %}
-					<b>{{ item.volume }}</b>({{ item.issue }}),
-					{{ item.pages }},
-					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
-				{% elsif item.volume and item.issue == null and item.pages == null and item.doi %}
-					<b>{{ item.volume }}</b>,
-					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
-				{% elsif item.issue and item.doi == null %}
-					<b>{{ item.volume }}</b>({{ item.issue }}),
-					{{ item.pages }}.
-				{% elsif item.issue == null and item.doi %}
-					<b>{{ item.volume }}</b>,
-					{{ item.pages }},
-					<a target="_blank" rel="noopener noreferrer" href="https://dx.doi.org/{{ item.doi }}" target='_blank'>doi:{{ item.doi }}</a>.
-				{% else %}
-					<b>{{ item.volume }}</b>,
-					{{ item.pages }}.
-				{% endif %}
-				{% if showdimensions and item.doi %}
-				  <a class="__dimensions_badge_embed__" data-doi="{{ item.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></a>
-					<!-- <a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a> -->
-				{% endif %}
-				{% if showaltmetric and item.doi %}
-					<a class="altmetric-embed" data-badge-popover="right" data-badge-type="2" data-doi="https://dx.doi.org/{{ item.doi }}" data-hide-no-mentions="true"></a>
-				{% endif %}
-				{% if showplumx and item.doi %}
-					<a href="https://plu.mx/plum/a/?doi={{ item.doi }}" class="plumx-plum-print-popup"></a>
-			  {% endif %}
-				{% include publications_pdf_and_notes.html %}
-			</li>
-	  {% endfor %}
-  </ol>
-{% endif %}
 
 
 <!-- </p> -->

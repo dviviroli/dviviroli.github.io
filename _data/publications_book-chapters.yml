@@ -1,6 +1,17 @@
 # for book chapters can use "authorship" field to e.g. add "contributions to" before
 # list of editors (and omit authors and chapter title)
 
+- authors: Höge M, Kauzlaric M, Siber R, Schönenberger U, Horton P, Schwanbeck J, Floriancic MG, Viviroli D, Wilhelm S, Sikorska-Senoner AE, Addor N, Brunner M, Pool S, Zappa M, Fenicia F
+  year: 2025
+  title: Zeitreihen und Kenngrössen zu ausgewählten Einzugsgebieten (CAMELS-CH)
+  series: Hydrologischer Atlas der Schweiz
+  publisher: Bundesamt für Umwelt (BAFU)
+  place: Bern
+  tafel: E02
+  pdf: https://boris-portal.unibe.ch/bitstreams/4c611a9e-7f14-449a-aaf5-f4c303a0b8a2/download
+  openaccess: Y
+  new: Y
+
 - authors: "Adler C, Wester P, Bhatt I, Huggel C, Insarov G, Morecroft M, Muccione V, Prakash A, Alcántara-Ayala I, Allen SK, Bader M, Bigler S, Camac J, Chakraborty R, Cuni A, Cuvi N, Drenkhan F, Hussain A, Maharjan A, Marchant R, McDowell G, Morin S, Niggli L, Ochoa A, Pandey A, Postigo J, Razanatsoa E, Rudloff VM, Scott C, Stevens M, Stone D, Thorn J, Thornton J, Viviroli D, Werners S"
   year: 2022
   title: "Cross-Chapter Paper 5: Mountains"
