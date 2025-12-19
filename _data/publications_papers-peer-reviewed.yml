@@ -4,11 +4,11 @@
   year: 2025
   title: "Partitioning uncertainties of extreme flood estimates using long continuous simulations"
   journal: Journal of Hydrology
-  volume: accepted
+  volume: in press
   # issue:
-  # pages:
-  # doi:
-  # pdf:
+  pages: 134804
+  doi: 10.1016/j.jhydrol.2025.134804
+  # pdf: "https://www.sciencedirect.com/science/article/pii/S0022169425021444/pdfft?md5=f9eda4d36c4f1acc8170413061268519&pid=1-s2.0-S0022169425021444-main.pdf"
   # pdf_external: Y
   # openaccess: Y
   new: Y
