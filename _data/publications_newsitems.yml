@@ -1,7 +1,20 @@
 
+
 - authors: von Däniken T
   date: 19.11.2025
-  title: "Bergstürze und starker Regen · Landslides and Heavy Rainfall"
+  title: "Weizen, Yams und Maramabohnen"
+  journal: "UZH Magazin"
+  volume: "4/25"
+  links:
+  - url: "https://issuu.com/uzhch/docs/uzh_magazin_4_25_/41"
+    text: Article in German
+    external: Y
+  openaccess: Y
+  new: Y
+
+- authors: von Däniken T
+  date: 19.11.2025
+  title: "Bergstürze und starker Regen"
   journal: "UZH Magazin"
   volume: "3/25"
   links:
@@ -13,9 +26,9 @@
     external: Y
   openaccess: Y
   new: Y
-
-- authors: Läubli M
-  date: 01.09.2023
-  title: "«In der Masse sind die Schäden gewaltig»"
-  journal: "Tages-Anzeiger"
-  page: 38
+ 
+# - authors: Läubli M
+#   date: 01.09.2023
+#   title: "«In der Masse sind die Schäden gewaltig»"
+#   journal: "Tages-Anzeiger"
+#   page: 38

@@ -3,7 +3,7 @@ layout: default
 title: About me
 ---
 
-{% assign shownewsitems = false %}
+{% assign shownewsitems = true %}
 
 <!-- <p style="font-size:130%; line-height: 120%;"> -->
 <div class="feature-grid">
@@ -30,7 +30,7 @@ title: About me
     <br>
     <br>
     {% if shownewsitems == true %}
-    <h4>Selected news items</h4>
+    <h4>About my work</h4>
     <a class="anchor" id="JP"></a>
     <div class="newsitems">
       {% for item in site.data.publications_newsitems %}
