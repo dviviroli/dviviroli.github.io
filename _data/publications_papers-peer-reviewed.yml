@@ -11,11 +11,13 @@
   new: Y
   email_request: Y
   mediacoverage:
-  - title: News item (Faculty of Science, University of Zurich, German)
-    # url:
+  - title: News item (Department of Geography, University of Zurich, German)
+  # - title: News item (Faculty of Science, University of Zurich, German)
+    url: https://www.geo.uzh.ch/de/news/publikationen/2026/klimawandel-gebirge-wirkungen-flussabwaerts.html
     external: Y
-  - title: News item (Faculty of Science, University of Zurich, English)
-    # url:
+  - title: News item (Department of Geography, University of Zurich, English)
+  # - title: News item (Faculty of Science, University of Zurich, English)
+    url: https://www.geo.uzh.ch/en/news/papers/2026/climate-change-impacts-downstream.html
     external: Y
 
 - authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Viviroli D
