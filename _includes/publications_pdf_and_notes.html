@@ -24,6 +24,13 @@
   {% endif %}
 {% endif %}
 
+<!-- request copy -->
+{% if item.email_request %}
+  <a href="mailto:{{requestrecipient}}?subject=Requesting a copy of '{{ item.title }}'" style="font-weight:bold; margin-left:10px">
+    Request a copy <i class="far fa-envelope fa-sm"></i>
+  </a>
+{% endif %}
+
 <!-- various links -->
 {% if item.links %}
   {% for entry in item.links %}
@@ -45,7 +52,7 @@
 {% if item.mediacoverage %}
   <br>
   <span style="display:block; height:0.50em;"></span>
-  > In the media:
+  > Media:
   {% assign items = item.mediacoverage %}
   {% for entry in item.mediacoverage %}
     <a target='_blank' rel="noopener noreferrer" href={{ entry.url }}>{{ entry.title }}</a>
