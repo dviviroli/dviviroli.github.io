@@ -4,13 +4,18 @@
   title: "Cascading downstream impacts of water cycle changes in mountain regions"
   journal: Nature Climate Change
   volume: 16
+  issue: 2
   pages: 129–142
   doi: 10.1038/s41558-025-02552-2
-  pdf: "https://www.nature.com/articles/s41558-025-02552-2.pdf"
+  pdf: https://rdcu.be/e27Q4
+  pdf_text: Read online
   pdf_external: Y
   new: Y
   email_request: Y
   mediacoverage:
+  - title: Press release (Keystone-SDA via SwissInfo)
+    url: https://www.swissinfo.ch/ger/klimawandel-in-bergen-bedroht-wasser-im-flachland/90920463
+    external: Y
   - title: News item (Department of Geography, University of Zurich, German)
   # - title: News item (Faculty of Science, University of Zurich, German)
     url: https://www.geo.uzh.ch/de/news/publikationen/2026/klimawandel-gebirge-wirkungen-flussabwaerts.html
@@ -214,6 +219,7 @@
   pdf: https://rdcu.be/b5r2H
   pdf_text: Read online
   pdf_external: Y
+  email_request: Y
   notes:
   - text: "Featured as research highlight in *Nature*"
     highlight: Y
@@ -243,6 +249,7 @@
   pdf: https://rdcu.be/b5nLf
   pdf_text: Read online
   pdf_external: Y
+  email_request: Y
   notes:
   - text: "Highly cited paper (top 1% in field as to ESI)"
     highlight: Y
