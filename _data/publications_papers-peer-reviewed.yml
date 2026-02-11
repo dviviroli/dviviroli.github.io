@@ -24,6 +24,11 @@
   # - title: News item (Faculty of Science, University of Zurich, English)
     url: https://www.geo.uzh.ch/en/news/papers/2026/climate-change-impacts-downstream.html
     external: Y
+  notes:
+  - text: "Cover image for this issue"
+    highlight: Y
+    url: https://www.nature.com/nclimate/volumes/16/issues/2
+    external: Y
 
 - authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Viviroli D
   year: 2026
