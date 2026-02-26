@@ -68,6 +68,26 @@
   {% endfor %}
 {% endif %}
 
+<!-- link list -->
+{% if item.linkchain %}
+  <br>
+  <span style="display:block; height:0.50em;"></span>
+  >
+  {% assign items = item.linkchain %}
+  {% for entry in item.linkchain %}
+    <a target='_blank' rel="noopener noreferrer" href={{ entry.url }}>{{ entry.title }}</a>
+    {% if entry.external %}
+      <a target="_blank" rel="noopener noreferrer" style="text-decoration: none" href={{ entry.url }}>
+        <div class="tooltip">
+          <i class="fas fa-external-link-alt fa-xs"></i>
+          <span class="tooltiptext">External link</span>
+        </div>
+      </a>
+    {% endif %}
+    {% if entry.title != items.last.title %}· {% endif %}
+  {% endfor %}
+{% endif %}
+
 <!-- notes -->
 {% if item.notes %}
   {% for entry in item.notes %}

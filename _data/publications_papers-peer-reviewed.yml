@@ -65,6 +65,9 @@
   pdf: https://www.nature.com/articles/s43016-025-01135-w.pdf
   pdf_external: Y
   openaccess: Y
+  notes:
+    - text: "Highly cited paper (top 1% in field as to ESI)"
+      highlight: Y
 
 - authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Hingray B, Vis M, Seibert J, Viviroli D
   year: 2025

@@ -1,14 +1,20 @@
 
-
 - authors: von Däniken T
   date: 19.11.2025
   title: "Weizen, Yams und Maramabohnen"
   journal: "UZH Magazin"
   volume: "4/25"
-  links:
-  - url: "https://issuu.com/uzhch/docs/uzh_magazin_4_25_/41"
-    text: Article in German
+  linkchain:
+  - title: Interactive in English
+    url: "https://www.news.uzh.ch/en/articles/news/2026/climate-change-croplands.html"
     external: Y
+  - title: Interactive in German
+    url: "https://www.news.uzh.ch/de/articles/news/2026/klimawandel-anbauflaechen.html"
+    external: Y
+  - title: Magazine article in German
+    url: "https://issuu.com/uzhch/docs/uzh_magazin_4_25_/41"
+    external: Y
+  openaccess: Y
   openaccess: Y
   new: Y
 
@@ -17,12 +23,15 @@
   title: "Bergstürze und starker Regen"
   journal: "UZH Magazin"
   volume: "3/25"
-  links:
-  - url: "https://www.news.uzh.ch/de/articles/news/2025/bergstuerze-und-starker-regen.html"
-    text: Article in German
+  linkchain:
+  - title: Online in English
+    url: "https://www.news.uzh.ch/en/articles/news/2025/landslides-and-heavy-rainfall.html"
     external: Y
-  - url: "https://www.news.uzh.ch/en/articles/news/2025/landslides-and-heavy-rainfall.html"
-    text: Article in English
+  - title: Online in German
+    url: "https://www.news.uzh.ch/de/articles/news/2025/bergstuerze-und-starker-regen.html"
+    external: Y
+  - title: "Magazine Article in German"
+    url: "https://issuu.com/uzhch/docs/uzh_magazin_3_2025_/39"
     external: Y
   openaccess: Y
   new: Y
