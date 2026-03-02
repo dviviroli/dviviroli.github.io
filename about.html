@@ -30,7 +30,7 @@ title: About me
     <br>
     <br>
     {% if shownewsitems == true %}
-    <h4>About my work</h4>
+    <h4>Recent coverage</h4>
     <a class="anchor" id="JP"></a>
     <div class="newsitems">
       {% for item in site.data.publications_newsitems %}
@@ -41,7 +41,9 @@ title: About me
               <span class="tooltiptext">added recently</span>
             </div>
           {% endif %}
-          <b>{{ item.authors }}, {{ item.date | date: "%Y" }}.</b>
+          {% if item.authors %}
+            <b>{{ item.authors }}, {{ item.date | date: "%Y" }}.</b>
+          {% endif %}
           {% capture lastchar %}{{ item.title | slice:-1 }}{% endcapture %}
           {% if lastchar == "?" or lastchar == "!" %}
             {{ item.title }}

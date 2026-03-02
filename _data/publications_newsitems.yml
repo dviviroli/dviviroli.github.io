@@ -1,7 +1,21 @@
 
+- authors:
+  date: 09.02.2026
+  title: "Climate change in mountains has far-reaching impacts downstream / Klimawandel in Gebirgsregionen hat weitreichende Auswirkungen flussabwärts"
+  journal: "GIUZ featured papers"
+  linkchain:
+  - title: Online in English
+    url: "https://www.geo.uzh.ch/en/news/papers/2026/climate-change-impacts-downstream.html"
+    external: Y
+  - title: Online in German
+    url: "https://www.geo.uzh.ch/de/news/publikationen/2026/klimawandel-gebirge-wirkungen-flussabwaerts.html"
+    external: Y
+  openaccess: Y
+  new: Y
+
 - authors: von Däniken T
   date: 19.11.2025
-  title: "Weizen, Yams und Maramabohnen"
+  title: "Wheat, Yams, and Marama Beans – Global Warming Causes Cropland Areas to Shrink / Weizen, Yams und Maramabohnen – Klimaerwärmung lässt Anbauflächen global schrumpfen"
   journal: "UZH Magazin"
   volume: "4/25"
   linkchain:
@@ -15,12 +29,11 @@
     url: "https://issuu.com/uzhch/docs/uzh_magazin_4_25_/41"
     external: Y
   openaccess: Y
-  openaccess: Y
   new: Y
 
 - authors: von Däniken T
   date: 19.11.2025
-  title: "Bergstürze und starker Regen"
+  title: "Landslides and Heavy Rainfall / Bergstürze und starker Regen"
   journal: "UZH Magazin"
   volume: "3/25"
   linkchain:
