@@ -1,4 +1,15 @@
 
+- authors: Kritidou E, Kauzlaric M, Staudinger M, Evin G, Vis M, Viviroli D
+  year: 2026
+  title: "How precipitation lapse rates shape runoff simulations and flood frequency estimates in mountainous regions"
+  archive: EGUsphere [preprint]
+  date: 28.04.2026
+  doi: 10.5194/egusphere-2026-2338
+  pdf: https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2338/egusphere-2026-2338.pdf
+  pdf_external: Y
+  openaccess: Y
+  new: Y
+
 # ******* EXAMPLE FOR FORMATTING *******
 # - authors: Hanus S, Schuster L, Burek P, Maussion F, Wada Y, Viviroli D
 #   year: 2024
