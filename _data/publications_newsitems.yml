@@ -1,4 +1,16 @@
 
+- authors: Vogel B
+  date: 06.07.2026
+  title: "Seltene Hochwasser besser vorhersehen"
+  journal: Aqua & Gas
+  volume: "7+8/2026"
+  pages: 69–73
+  linkchain:
+  - title: Journal article
+    url: "documents/Vogel_2026_AG_7-8.pdf"
+    external: N
+  new: Y
+
 - authors:
   date: 09.02.2026
   title: "Climate change in mountains has far-reaching impacts downstream / Klimawandel in Gebirgsregionen hat weitreichende Auswirkungen flussabwärts"
@@ -18,6 +30,7 @@
   title: "Wheat, Yams, and Marama Beans – Global Warming Causes Cropland Areas to Shrink / Weizen, Yams und Maramabohnen – Klimaerwärmung lässt Anbauflächen global schrumpfen"
   journal: "UZH Magazin"
   volume: "4/25"
+  pages: 40–44
   linkchain:
   - title: Interactive in English
     url: "https://www.news.uzh.ch/en/articles/news/2026/climate-change-croplands.html"
@@ -29,13 +42,13 @@
     url: "https://issuu.com/uzhch/docs/uzh_magazin_4_25_/41"
     external: Y
   openaccess: Y
-  new: Y
 
 - authors: von Däniken T
   date: 19.11.2025
   title: "Landslides and Heavy Rainfall / Bergstürze und starker Regen"
   journal: "UZH Magazin"
   volume: "3/25"
+  pages: 38–41
   linkchain:
   - title: Online in English
     url: "https://www.news.uzh.ch/en/articles/news/2025/landslides-and-heavy-rainfall.html"
@@ -47,10 +60,9 @@
     url: "https://issuu.com/uzhch/docs/uzh_magazin_3_2025_/39"
     external: Y
   openaccess: Y
-  new: Y
 
 # - authors: Läubli M
 #   date: 01.09.2023
 #   title: "«In der Masse sind die Schäden gewaltig»"
 #   journal: "Tages-Anzeiger"
-#   page: 38
+#   pages: 38

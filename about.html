@@ -52,7 +52,11 @@ title: About me
           {% endif %}
           <i>{{ item.journal }}</i>,
           {% if item.volume %}
-            {{ item.volume }}.
+            {% if item.pages %}
+              {{ item.volume }}, {{ item.pages }}.
+            {% else %}
+              {{ item.volume }}.
+            {% endif %}
           {% elsif item.date %}
             {{ item.date }}.
           {% endif %}
