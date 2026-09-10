@@ -1,5 +1,17 @@
 
 - authors: Vogel B
+  date: 01.09.2026
+  title: "Une meilleure prévision des crues exceptionnelles"
+  journal: hydrosuisse journal
+  volume: "03-2026"
+  pages: 25–28
+  linkchain:
+  - title: Journal article
+    url: "documents/Vogel_2026_wel_118.pdf"
+    external: N
+  new: Y
+
+- authors: Vogel B
   date: 06.07.2026
   title: "Seltene Hochwasser besser vorhersehen"
   journal: Aqua & Gas
